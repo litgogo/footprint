@@ -1,0 +1,32 @@
+import type { Metadata } from "next";
+import "./globals.css";
+
+export const metadata: Metadata = {
+  title: "此处安放 · 足迹",
+  description: "奔赴山海，和自己重逢。有些旅行，不是为了抵达。",
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="zh-CN">
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500&display=swap"
+          rel="stylesheet"
+        />
+      </head>
+      <body className="bg-[#faf8f5] text-[#3d3226] font-sans antialiased min-h-screen">
+        {children}
+        <footer className="text-center text-xs text-[#a09080] py-8 border-t border-[#e8e0d5] mt-16">
+          <p>此处安放 · 2026 | 用文字记录一起看世界的方式</p>
+        </footer>
+      </body>
+    </html>
+  );
+}

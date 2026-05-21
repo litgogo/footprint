@@ -58,7 +58,6 @@ export default function CityPortals() {
 
               {/* Hover 时才显示的统计 */}
               <div className="mt-4 flex gap-3 text-[10px] text-[#a09080] opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <span>🧩 {city.fragments.length}</span>
                 <span>💭 {city.feelings.length}</span>
                 <span>🧠 {city.thoughts.length}</span>
               </div>

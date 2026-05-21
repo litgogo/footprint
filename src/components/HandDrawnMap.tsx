@@ -103,7 +103,6 @@ function HoverCard({ city }: { city: City }) {
         {city.name}
       </div>
       <div className="flex gap-3 mt-1.5 text-[10px] text-[#8c7b6b]">
-        <span>🧩 {city.fragments.length}</span>
         <span>💭 {city.feelings.length}</span>
         <span>🧠 {city.thoughts.length}</span>
       </div>

@@ -23,7 +23,7 @@ export default function CityDetailClient({ city }: CityDetailClientProps) {
       <div className="relative w-full h-56 md:h-72 overflow-hidden">
         {city.photo ? (
           <img
-            src={city.photo}
+            src={`/footprint${city.photo}`}
             alt={city.name}
             className="w-full h-full object-cover"
           />

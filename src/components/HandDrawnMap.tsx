@@ -14,7 +14,7 @@ export default function HandDrawnMap() {
       <div className="relative w-full">
         {/* 底图 */}
         <img
-          src="/photos/china-map.webp"
+          src="/footprint/photos/china-map.webp"
           alt="中国足迹地图"
           className="w-full h-auto"
           loading="eager"

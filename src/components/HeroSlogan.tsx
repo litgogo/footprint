@@ -1,29 +1,67 @@
+"use client";
+
+import { useEffect, useRef, useState } from "react";
 import { siteConfig } from "@/data/cities";
 
 export default function HeroSlogan() {
-  return (
-    <div className="text-center mb-12 pt-12 pb-8">
-      {/* 主 Slogan */}
-      <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-light text-[#5d4e37] tracking-wider leading-tight">
-        {siteConfig.title}
-      </h1>
+  const containerRef = useRef<HTMLDivElement>(null);
+  const [scrollProgress, setScrollProgress] = useState(0);
 
-      {/* 装饰线 */}
-      <div className="flex items-center justify-center gap-4 my-6">
-        <span className="block w-12 h-px bg-[#c75146] opacity-40" />
-        <span className="w-1.5 h-1.5 rounded-full bg-[#c75146] opacity-60" />
-        <span className="block w-12 h-px bg-[#c75146] opacity-40" />
+  useEffect(() => {
+    const el = containerRef.current;
+    if (!el) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        // ratio goes from 1 (fully visible) to 0 (fully scrolled out)
+        const progress = 1 - entry.intersectionRatio;
+        setScrollProgress(Math.min(progress, 1));
+      },
+      { threshold: Array.from({ length: 21 }, (_, i) => i / 20) }
+    );
+
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
+
+  const opacity = 1 - scrollProgress * 1.3;
+  const translateY = scrollProgress * -80;
+
+  return (
+    <div
+      ref={containerRef}
+      className="flex flex-col items-center justify-center min-h-screen px-4 text-center"
+      style={{
+        opacity: Math.max(opacity, 0),
+        transform: `translateY(${translateY}px)`,
+        transition: "opacity 0.1s linear, transform 0.1s linear",
+      }}
+    >
+      {/* 装饰线 — 上方 */}
+      <div className="flex items-center justify-center gap-3 mb-8">
+        <span className="block w-10 h-px bg-[#c75146] opacity-30" />
+        <span className="w-1.5 h-1.5 rounded-full bg-[#c75146] opacity-50" />
+        <span className="block w-10 h-px bg-[#c75146] opacity-30" />
       </div>
 
-      {/* 核心句 */}
-      <p className="text-xl md:text-2xl text-[#8c7b6b] font-serif italic tracking-wide">
+      {/* 主标语 */}
+      <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-serif font-light text-[#4a3728] tracking-widest leading-tight max-w-3xl">
         {siteConfig.slogan}
-      </p>
+      </h1>
 
-      {/* 副句 */}
-      <p className="text-sm text-[#a09080] mt-3 tracking-widest font-light">
+      {/* 副标 */}
+      <p className="mt-6 text-lg md:text-xl text-[#8c7b6b] font-serif italic tracking-wide max-w-xl leading-relaxed">
         {siteConfig.subtitle}
       </p>
+
+      {/* 装饰线 — 下方 */}
+      <div className="flex items-center justify-center gap-3 mt-8">
+        <span className="block w-12 h-px bg-[#a09080] opacity-30" />
+        <span className="text-[10px] tracking-[0.3em] text-[#a09080] uppercase font-light">
+          {siteConfig.author}
+        </span>
+        <span className="block w-12 h-px bg-[#a09080] opacity-30" />
+      </div>
     </div>
   );
 }

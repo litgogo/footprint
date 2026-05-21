@@ -1,8 +1,8 @@
 "use client";
 
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 import { cities, City } from "@/data/cities";
-import Link from "next/link";
 
 // 简化手绘风格中国地图轮廓 (viewBox 1000x900)
 const CHINA_OUTLINE =
@@ -13,29 +13,26 @@ const CHINA_OUTLINE =
   "L 355,310 L 315,290 L 270,270 L 230,250 L 200,225 " +
   "L 210,190 L 230,165 L 260,150 L 290,130 L 310,110 Z";
 
-// 台湾简易轮廓
-const TAIWAN_OUTLINE = "M 695,370 L 700,355 L 708,360 L 715,375 L 705,390 L 692,385 Z";
+const TAIWAN_OUTLINE =
+  "M 695,370 L 700,355 L 708,360 L 715,375 L 705,390 L 692,385 Z";
 
-// 海南简易轮廓
-const HAINAN_OUTLINE = "M 590,430 L 600,425 L 610,435 L 605,450 L 592,448 Z";
+const HAINAN_OUTLINE =
+  "M 590,430 L 600,425 L 610,435 L 605,450 L 592,448 Z";
 
 export default function HandDrawnMap() {
-  const [hoveredCity, setHoveredCity] = useState<string | null>(null);
-  const [activeCity, setActiveCity] = useState<string | null>(null);
-
-  const isCityVisible = (city: City) =>
-    hoveredCity === null || hoveredCity === city.slug;
+  const router = useRouter();
+  const [hovered, setHovered] = useState<string | null>(null);
 
   return (
-    <div className="relative w-full max-w-[800px] mx-auto">
+    <div className="relative w-full max-w-[720px] mx-auto px-2">
+      {/* SVG 地图 */}
       <svg
         viewBox="0 0 1000 900"
         className="w-full h-auto"
-        aria-label="足迹地图 - 中国"
-        style={{ filter: "url(#handDrawn)" }}
+        aria-label="足迹地图 — 中国"
       >
         <defs>
-          {/* 手绘风格滤镜 */}
+          {/* 手绘滤镜 */}
           <filter id="handDrawn" x="-5%" y="-5%" width="110%" height="110%">
             <feTurbulence
               type="fractalNoise"
@@ -46,207 +43,123 @@ export default function HandDrawnMap() {
             <feDisplacementMap
               in="SourceGraphic"
               in2="noise"
-              scale="1.8"
+              scale="1.5"
               xChannelSelector="R"
               yChannelSelector="G"
             />
           </filter>
 
-          {/* 标记点发光 */}
-          <filter id="glow">
-            <feGaussianBlur stdDeviation="3" result="blur" />
+          {/* 微光滤镜 */}
+          <filter id="softGlow">
+            <feGaussianBlur stdDeviation="2.5" result="blur" />
             <feMerge>
               <feMergeNode in="blur" />
               <feMergeNode in="SourceGraphic" />
             </feMerge>
           </filter>
-
-          {/* 标记点阴影 */}
-          <filter id="markerShadow">
-            <feDropShadow dx="0" dy="0" stdDeviation="2" floodColor="#5d4e37" floodOpacity="0.3" />
-          </filter>
         </defs>
 
         {/* 底色 */}
-        <rect x="0" y="0" width="1000" height="900" fill="transparent" />
+        <rect width="1000" height="900" fill="transparent" />
 
-        {/* 中国大陆轮廓 */}
+        {/* 大陆轮廓 */}
         <path
           d={CHINA_OUTLINE}
-          fill="#e8e0d5"
-          stroke="#5d4e37"
-          strokeWidth="2"
+          fill="#f0ebe0"
+          stroke="#8c7b6b"
+          strokeWidth="1.6"
           strokeLinejoin="round"
           strokeLinecap="round"
-          className="transition-colors duration-500"
-        />
-
-        {/* 轮廓加强线 — 手绘感第二笔 */}
-        <path
-          d={CHINA_OUTLINE}
-          fill="none"
-          stroke="#5d4e37"
-          strokeWidth="0.6"
-          strokeLinejoin="round"
-          opacity="0.4"
           style={{ filter: "url(#handDrawn)" }}
         />
 
         {/* 台湾 */}
         <path
           d={TAIWAN_OUTLINE}
-          fill="#e8e0d5"
-          stroke="#5d4e37"
-          strokeWidth="1.8"
+          fill="#f0ebe0"
+          stroke="#8c7b6b"
+          strokeWidth="1.4"
           strokeLinejoin="round"
+          style={{ filter: "url(#handDrawn)" }}
         />
 
         {/* 海南 */}
         <path
           d={HAINAN_OUTLINE}
-          fill="#e8e0d5"
-          stroke="#5d4e37"
-          strokeWidth="1.6"
+          fill="#f0ebe0"
+          stroke="#8c7b6b"
+          strokeWidth="1.2"
           strokeLinejoin="round"
+          style={{ filter: "url(#handDrawn)" }}
         />
 
         {/* 城市标记点 */}
         {cities.map((city) => {
-          const isActive = activeCity === city.slug;
-          const isHovered = hoveredCity === city.slug;
-          const visible = isCityVisible(city);
-          const scale = isActive || isHovered ? 2 : 1;
-          const opacity = visible ? 1 : 0.3;
+          const isHovered = hovered === city.slug;
+          const dotOpacity = hovered === null ? 1 : isHovered ? 1 : 0.25;
 
           return (
             <g
               key={city.slug}
-              style={{ opacity, transition: "opacity 0.3s ease" }}
-              onMouseEnter={() => setHoveredCity(city.slug)}
-              onMouseLeave={() => setHoveredCity(null)}
-              onClick={() => setActiveCity(isActive ? null : city.slug)}
+              style={{ opacity: dotOpacity, transition: "opacity 0.4s ease" }}
+              onMouseEnter={() => setHovered(city.slug)}
+              onMouseLeave={() => setHovered(null)}
+              onClick={() => router.push(city.route)}
               className="cursor-pointer"
             >
-              {/* 外圈光晕 (脉冲动画) */}
+              {/* 外圈微光 (hover 时可见) */}
               <circle
                 cx={`${city.coordinates.x}%`}
                 cy={`${city.coordinates.y}%`}
-                r={isActive ? 20 : 12}
+                r={isHovered ? 14 : 8}
                 fill="none"
                 stroke="#c75146"
-                strokeWidth="1"
-                opacity={isActive ? 0.3 : isHovered ? 0.5 : 0}
-                className={!isActive ? "animate-ping" : ""}
-                style={{ animationDuration: "2.5s" }}
+                strokeWidth="0.8"
+                opacity={isHovered ? 0.3 : 0}
+                style={{ transition: "all 0.35s ease" }}
               />
 
               {/* 实心标记点 */}
               <circle
                 cx={`${city.coordinates.x}%`}
                 cy={`${city.coordinates.y}%`}
-                r={5}
+                r={isHovered ? 5 : 3.5}
                 fill="#c75146"
-                filter="url(#markerShadow)"
-                style={{
-                  transformOrigin: `${city.coordinates.x}% ${city.coordinates.y}%`,
-                  transform: `scale(${scale})`,
-                  transition: "transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1)",
-                }}
+                filter="url(#softGlow)"
+                style={{ transition: "r 0.35s ease" }}
               />
-
-              {/* Hover/Active 城市名标签 */}
-              {(isHovered || isActive) && (
-                <g className="pointer-events-none">
-                  <text
-                    x={`${city.coordinates.x}%`}
-                    y={`${city.coordinates.y - 5}%`}
-                    textAnchor="middle"
-                    dominantBaseline="alphabetic"
-                    fill="#5d4e37"
-                    fontSize="13"
-                    fontWeight="500"
-                    style={{
-                      fontFamily: "'Noto Serif SC', 'Source Han Serif SC', serif",
-                    }}
-                  >
-                    {city.name}
-                  </text>
-                  {/* 下划线装饰 */}
-                  <line
-                    x1={`${city.coordinates.x - 8}%`}
-                    y1={`${city.coordinates.y - 2}%`}
-                    x2={`${city.coordinates.x + 8}%`}
-                    y2={`${city.coordinates.y - 2}%`}
-                    stroke="#c75146"
-                    strokeWidth="0.6"
-                    opacity="0.5"
-                  />
-                </g>
-              )}
-
-              {/* 连线 (仅 active 时连接所有城市) */}
-              {isActive && (
-                <circle
-                  cx={`${city.coordinates.x}%`}
-                  cy={`${city.coordinates.y}%`}
-                  r={6}
-                  fill="none"
-                  stroke="#c75146"
-                  strokeWidth="1.5"
-                  opacity="0.6"
-                />
-              )}
             </g>
           );
         })}
       </svg>
 
-      {/* 底部已访问城市网格 */}
-      <div className="mt-8 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 px-4">
-        {cities.map((city) => (
-          <Link
-            key={city.slug}
-            href={city.route}
-            className="group"
-            onMouseEnter={() => setHoveredCity(city.slug)}
-            onMouseLeave={() => setHoveredCity(null)}
-          >
-            <div
-              className={`
-                p-4 rounded-lg border transition-all duration-300
-                ${hoveredCity === city.slug
-                  ? "border-[#c75146] bg-[#fdf5f4] shadow-md -translate-y-1"
-                  : "border-[#d4c9b8] bg-white hover:shadow-sm"
-                }
-              `}
-            >
-              <div className="text-xs text-[#8c7b6b] mb-1">{city.date}</div>
-              <div className="font-serif text-[#5d4e37] font-medium">{city.name}</div>
-              <div className="text-xs text-[#a09080] mt-1 line-clamp-2 leading-relaxed">
-                {city.tagline}
-              </div>
-              {city.companion && (
-                <div className="text-[10px] text-[#c75146] mt-2 inline-block px-2 py-0.5 rounded-full bg-[#fdf5f4]">
-                  {city.companion}
-                </div>
-              )}
-            </div>
-          </Link>
-        ))}
-      </div>
+      {/* Hover 浮层卡片 */}
+      {hovered && (
+        <HoverCard city={cities.find((c) => c.slug === hovered)!} />
+      )}
+    </div>
+  );
+}
 
-      {/* 自定义动画样式 */}
-      <style jsx>{`
-        @keyframes ping {
-          75%, 100% {
-            transform: scale(2.5);
-            opacity: 0;
-          }
-        }
-        .animate-ping {
-          animation: ping 2.5s cubic-bezier(0, 0, 0.2, 1) infinite;
-        }
-      `}</style>
+function HoverCard({ city }: { city: City }) {
+  return (
+    <div
+      className="absolute z-20 pointer-events-none bg-white/95 backdrop-blur-sm border border-[#e0d6c5] rounded-lg p-4 shadow-lg min-w-[180px]"
+      style={{
+        left: `calc(${city.coordinates.x}% + 12px)`,
+        top: `calc(${city.coordinates.y}% - 60px)`,
+        transform: "translateX(0)",
+      }}
+    >
+      <div className="text-xs text-[#a09080] mb-1">{city.date}</div>
+      <div className="font-serif text-sm font-medium text-[#4a3728]">
+        {city.name}
+      </div>
+      <div className="flex gap-3 mt-2 text-[10px] text-[#8c7b6b]">
+        <span>🧩 {city.fragments.length} 碎片</span>
+        <span>💭 {city.feelings.length} 感受</span>
+        <span>🧠 {city.thoughts.length} 思考</span>
+      </div>
     </div>
   );
 }

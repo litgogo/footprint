@@ -1,124 +1,137 @@
 import { cities } from "@/data/cities";
-import Link from "next/link";
 import { notFound } from "next/navigation";
+import Link from "next/link";
+import CityDetailClient from "./CityDetailClient";
 
 // 静态生成所有城市页
 export function generateStaticParams() {
-  return cities.map((city) => ({
-    slug: city.slug,
-  }));
+  return cities.map((city) => ({ slug: city.slug }));
 }
 
-export default function CityPage({ params }: { params: Promise<{ slug: string }> }) {
-  // params is a Promise in Next.js 16
-  const resolvedParams = useParamsAsync(params);
-  return <CityPageContent slug={resolvedParams.slug} />;
-}
+export default async function CityPage({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
 
-// Helper to await params
-import { use } from "react";
-
-function CityPageContent({ slug }: { slug: string }) {
   const city = cities.find((c) => c.slug === slug);
   if (!city) notFound();
 
   return (
-    <main className="min-h-screen px-4 py-8 max-w-3xl mx-auto">
-      {/* 返回链接 */}
+    <main className="min-h-screen px-4 py-8 max-w-4xl mx-auto">
+      {/* ============================================ */}
+      {/* 返回链接                                        */}
+      {/* ============================================ */}
       <Link
         href="/"
-        className="inline-flex items-center gap-2 text-sm text-[#8c7b6b] hover:text-[#5d4e37] transition-colors mb-8 group"
+        className="inline-flex items-center gap-2 text-sm text-[#8c7b6b] hover:text-[#4a3728] transition-colors mb-10 group"
       >
-        <span className="group-hover:-translate-x-1 transition-transform">←</span>
-        回到足迹地图
+        <span className="group-hover:-translate-x-1 transition-transform text-xs">←</span>
+        <span className="tracking-wide">回到足迹地图</span>
       </Link>
 
-      {/* 城市标题 */}
-      <div className="mb-10">
-        <div className="text-xs text-[#a09080] tracking-widest mb-2">{city.date}</div>
-        <h1 className="text-3xl md:text-4xl font-serif font-light text-[#5d4e37] tracking-wide">
+      {/* ============================================ */}
+      {/* 城市标题区                                      */}
+      {/* ============================================ */}
+      <header className="mb-10">
+        <div className="text-[11px] text-[#a09080] tracking-[0.2em] mb-3">
+          {city.date}
+        </div>
+        <h1 className="text-3xl md:text-4xl lg:text-5xl font-serif font-light text-[#4a3728] tracking-wider">
           {city.name}
         </h1>
-        <div className="flex items-center gap-3 mt-3">
-          <span className="block w-8 h-px bg-[#c75146] opacity-40" />
-          <p className="text-lg text-[#8c7b6b] font-serif italic">{city.tagline}</p>
+
+        {/* 装饰线 + tagline */}
+        <div className="flex items-center gap-4 mt-4">
+          <span className="block w-10 h-px bg-[#c75146]/40" />
+          <p className="text-lg md:text-xl text-[#8c7b6b] font-serif italic leading-relaxed">
+            {city.tagline}
+          </p>
         </div>
-        {city.companion && (
-          <div className="mt-4">
-            <span className="text-xs px-3 py-1 rounded-full bg-[#fdf5f4] text-[#c75146] border border-[#f5d5d2]">
-              同行者：{city.companion}
+
+        {/* 关键词 + 同行者 */}
+        <div className="flex flex-wrap items-center gap-2 mt-5">
+          {city.keywords.map((kw) => (
+            <span
+              key={kw}
+              className="text-[11px] px-3 py-1 rounded-full bg-white border border-[#e8e0d5] text-[#8c7b6b]"
+            >
+              {kw}
             </span>
-          </div>
-        )}
-      </div>
-
-      {/* 关键词标签 */}
-      <div className="flex flex-wrap gap-2 mb-10">
-        {city.keywords.map((kw) => (
-          <span
-            key={kw}
-            className="text-xs px-3 py-1.5 rounded-full bg-white border border-[#e8e0d5] text-[#8c7b6b]"
-          >
-            {kw}
-          </span>
-        ))}
-      </div>
-
-      {/* 正文占位 — 后续填充游记内容 */}
-      <article className="prose prose-stone max-w-none font-serif text-[#3d3226] leading-relaxed">
-        <div className="p-8 bg-white rounded-lg border border-[#e8e0d5] text-center">
-          <p className="text-[#a09080] text-sm">
-            游记正文即将呈现在这里。
-          </p>
-          <p className="text-[#c75146] text-xs mt-2">
-            —— {city.name} · 慢游档案 ——
-          </p>
+          ))}
+          {city.companion && (
+            <span className="text-[11px] px-3 py-1 rounded-full bg-[#fdf5f4] text-[#c75146] border border-[#f5d5d2]/50">
+              同行：{city.companion}
+            </span>
+          )}
         </div>
-      </article>
 
-      {/* 底部导航 — 前后城市 */}
+        {/* 统计概览 */}
+        <div className="flex gap-5 mt-6 text-xs text-[#a09080]">
+          <span>🧩 {city.fragments.length} 碎片</span>
+          <span>💭 {city.feelings.length} 感受</span>
+          <span>🧠 {city.thoughts.length} 思考</span>
+        </div>
+      </header>
+
+      {/* ============================================ */}
+      {/* 三级索引交互区（客户端组件）                          */}
+      {/* ============================================ */}
+      <CityDetailClient city={city} />
+
+      {/* ============================================ */}
+      {/* 底部城市导航                                     */}
+      {/* ============================================ */}
       <CityNavigation currentSlug={slug} />
     </main>
   );
 }
 
+// ============================================================
+// 城市间导航
+// ============================================================
+
 function CityNavigation({ currentSlug }: { currentSlug: string }) {
   const currentIndex = cities.findIndex((c) => c.slug === currentSlug);
   const prev = currentIndex > 0 ? cities[currentIndex - 1] : null;
-  const next = currentIndex < cities.length - 1 ? cities[currentIndex + 1] : null;
+  const next =
+    currentIndex < cities.length - 1 ? cities[currentIndex + 1] : null;
 
   return (
-    <nav className="mt-16 pt-8 border-t border-[#e8e0d5] flex justify-between items-center text-sm">
+    <nav className="mt-20 pt-8 border-t border-[#e8e0d5] flex justify-between items-center text-sm">
       {prev ? (
         <Link
           href={prev.route}
-          className="text-[#8c7b6b] hover:text-[#5d4e37] transition-colors flex items-center gap-1 group"
+          className="text-[#8c7b6b] hover:text-[#4a3728] transition-colors flex items-center gap-1.5 group"
         >
-          <span className="group-hover:-translate-x-1 transition-transform">←</span>
-          {prev.name}
+          <span className="group-hover:-translate-x-1 transition-transform text-xs">
+            ←
+          </span>
+          <span className="hidden sm:inline">{prev.name}</span>
         </Link>
       ) : (
         <span />
       )}
-      <Link href="/" className="text-[#a09080] hover:text-[#5d4e37] transition-colors text-xs">
+      <Link
+        href="/"
+        className="text-[#a09080] hover:text-[#4a3728] transition-colors text-xs tracking-wider"
+      >
         足迹地图
       </Link>
       {next ? (
         <Link
           href={next.route}
-          className="text-[#8c7b6b] hover:text-[#5d4e37] transition-colors flex items-center gap-1 group"
+          className="text-[#8c7b6b] hover:text-[#4a3728] transition-colors flex items-center gap-1.5 group"
         >
-          {next.name}
-          <span className="group-hover:translate-x-1 transition-transform">→</span>
+          <span className="hidden sm:inline">{next.name}</span>
+          <span className="group-hover:translate-x-1 transition-transform text-xs">
+            →
+          </span>
         </Link>
       ) : (
         <span />
       )}
     </nav>
   );
-}
-
-// Helper component to unwrap params Promise
-function useParamsAsync<T>(promise: Promise<T>): T {
-  return use(promise);
 }

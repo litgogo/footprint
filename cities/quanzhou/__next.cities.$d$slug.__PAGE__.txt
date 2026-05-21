@@ -1,7 +1,64 @@
 1:"$Sreact.fragment"
-2:I[31486,["/footprint/_next/static/chunks/01xlw8hd842-c.js","/footprint/_next/static/chunks/0d3shmwh5_nmn.js","/footprint/_next/static/chunks/0u7zhkr0vaz.t.js"],"default"]
-3:I[22016,["/footprint/_next/static/chunks/01xlw8hd842-c.js","/footprint/_next/static/chunks/0d3shmwh5_nmn.js","/footprint/_next/static/chunks/0u7zhkr0vaz.t.js"],""]
-4:I[97367,["/footprint/_next/static/chunks/01xlw8hd842-c.js","/footprint/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
-5:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"className":"min-h-screen max-w-2xl mx-auto","children":[["$","$L2",null,{"city":{"slug":"quanzhou","name":"泉州","date":"2025.01","tagline":"半城烟火半城仙，神明的海上办事处","coordinates":{"x":72,"y":62},"photo":"/photos/quanzhou.jpg","keywords":["海上丝路","簪花","木偶","开元寺"],"route":"/cities/quanzhou","topics":["在地建筑","文博展馆","市井烟火","非遗传承"],"people":[{"id":"qz-artisan","name":"陈师傅","role":"提线木偶传承人","note":"「木偶有36根线，但控制它的只有一双手。人心不散，戏就不散。」"}],"fragments":[{"id":"qz-1","type":"location","image":"/photos/quanzhou-kaiyuan.jpg","caption":"开元寺 — 东西塔对峙，唐代桑树仍在开花。","date":"2025.01.18"},{"id":"qz-2","type":"moment","image":"/photos/quanzhou-xunpu.jpg","caption":"蟳埔女簪花围 — 头发上开出一座花园。","date":"2025.01.19"},{"id":"qz-3","type":"moment","caption":"木偶剧院的钟馗醉酒——木偶举起酒杯的瞬间，全场屏息。36根线，每一根都是心跳。","date":"2025.01.19"},{"id":"qz-4","type":"ticket","caption":"泉州海外交通史博物馆 · 沉船展厅门票","date":"2025.01.20"},{"id":"qz-5","type":"location","caption":"关帝庙的香火旺得像起了雾，隔壁就是清净寺。神在泉州做邻居。","date":"2025.01.20"}],"feelings":[{"id":"qz-f1","quote":"泉州有「世界宗教博物馆」之称，但我觉得更像「神明的合租公寓」。各住各的，相安无事。","context":"在涂门街看关帝庙和清净寺隔街相望"},{"id":"qz-f2","quote":"簪花围戴上的那一刻，我才意识到自己很久没有「被装饰」过了。成年人把很多东西简化到了无趣。","context":"蟳埔村体验簪花"}],"thoughts":[{"id":"qz-t1","title":"神明的「邻里关系」","body":"泉州最让我着迷的不是单一的庙宇，是它们之间的关系。涂门街上，关帝庙的香火袅袅升腾，几百米外就是中国现存最古老的伊斯兰教寺院清净寺，再走几步是文庙、天后宫。不同文明的巅峰之作像邻居一样排在一起。\n\n这不是「融合」——融合听起来像把所有东西倒进榨汁机。泉州是「并存」：各守各的规矩，各信各的神，但在同一片天空下。这种并存不需要理论框架，它就是一个港口城市千年日常积累下来的肌肉记忆。"}]}}],["$","nav",null,{"className":"px-4 pt-8 pb-12 border-t border-[#e8e0d5] flex justify-between items-center text-sm max-w-2xl mx-auto","children":[["$","$L3",null,{"href":"/cities/dali","className":"text-[#8c7b6b] hover:text-[#4a3728] transition-colors flex items-center gap-1.5 group","children":[["$","span",null,{"className":"group-hover:-translate-x-1 transition-transform text-xs","children":"←"}],["$","span",null,{"className":"hidden sm:inline","children":"大理"}]]}],["$","$L3",null,{"href":"/","className":"text-[#a09080] hover:text-[#4a3728] transition-colors text-xs tracking-wider","children":"足迹地图"}],["$","$L3",null,{"href":"/cities/hongkong","className":"text-[#8c7b6b] hover:text-[#4a3728] transition-colors flex items-center gap-1.5 group","children":[["$","span",null,{"className":"hidden sm:inline","children":"香港"}],["$","span",null,{"className":"group-hover:translate-x-1 transition-transform text-xs","children":"→"}]]}]]}]]}],[["$","script","script-0",{"src":"/footprint/_next/static/chunks/0u7zhkr0vaz.t.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"L2lG6UDXMaJVkJxDH0yHH"}
-6:null
+2:I[31486,["/footprint/_next/static/chunks/01xlw8hd842-c.js","/footprint/_next/static/chunks/0d3shmwh5_nmn.js","/footprint/_next/static/chunks/0l~28yxenhxzb.js"],"default"]
+4:I[22016,["/footprint/_next/static/chunks/01xlw8hd842-c.js","/footprint/_next/static/chunks/0d3shmwh5_nmn.js","/footprint/_next/static/chunks/0l~28yxenhxzb.js"],""]
+6:I[97367,["/footprint/_next/static/chunks/01xlw8hd842-c.js","/footprint/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T10e9,提及泉州，便是"半城烟火半城仙"，五步一寺庙十步一神佛，红砖古厝错落间，一面是寺内的仙宫玉阙，一面是寺外的烟火人间。
+
+作为丝绸之路的重要起点，要想体验泉州的多元文化，重走闽南的历史遗迹，邂逅一趟神明的人间办事处。它有无数的可以探索的小巷子，有无数穿越时空依然保留下来的世界非物质遗产，还有融入每个本地人生活的神灵庇佑。
+
+> "而不是在都市里，光滑的玻璃反射出统一光"。
+
+## 万巷烟景 · 鲤城区巷子
+
+跟着小宇宙老李《来去泉州》走古城巷子。带上耳机，跟着老李，感受万巷烟景。古城有360多条巷子，是泉州人民保护下来的。
+
+藏在墙里的石敢当、隐在转角间的观音、鲁迅写的"梨园剧院"、舒婷的故居、看古榕巷36号的木雕和门两年砖雕、看经历八级地震不倒的出砖入石墙、看董杨大宗祠。
+
+走着走着累了，居然遇到种草许久的"余温"咖啡。巷子的转角有文创店，而小小的"状元石敢当"就静静在旁边，和文明共处。这个真的是很有意思的一种旅行方式。
+
+## 开元寺
+
+紫云屏轻启，古刹悠然现。这里是《黑神话悟空》的取景古建之一。大雄宝殿，百柱擎天，甘露戒坛，飞天乐伎轻抚琴弦。双塔耸立，镇国仁寿。
+
+> PS：喜欢古建历史的可以在小宇宙播客《来去泉州》，跟着老李讲解走开元寺，他讲得可比现场讲解员讲得精彩多了。
+
+## 浔埔簪花
+
+浔埔村位于晋江的入海口，在这儿「海洋」将它的包容性、多样性赋予了「浔埔簪花」。无论来自哪里，穿着传统还是新颖的服饰，当一朵朵花簪满了头，强烈的视觉冲击之下，原本看似无法兼容的各个元素却意料之外地在碰撞中迸发出新的活力。
+
+「簪花」保有澎湃的生命力，从汉代延续至今，经久不衰，历久弥新。
+
+## 海交博物馆
+
+公元10世纪泉州已经是世界海洋贸易中心。当我在海交馆看到印度教建筑的构建、基督教元素的造像、穆斯林的墓碑等各种多元文化交融的遗迹时——
+
+> "在此大帝国境内，应有天下各国和色宗教派别之人。所有的人皆可按照各自教派而生活。" ——安德烈·佩鲁赞
+
+在这里，飞天与十字架相伴，莲花与天使共生，湿婆与观音一体，各种宗教和谐共处。石刻上有叙利亚文、阿拉伯文、回鹘文、泰米尔文、八思巴文等各种文字——是真正开放包容的盛世气象。
+
+## 木偶剧院
+
+提线木偶定是泉州的非遗瑰宝。在南音的悠扬旋律中，去感受那份跨越千年的雅乐魅力。最喜欢会跳disco的小猴子，钟馗真的会倒酒，闹元宵的变装也着实让人震撼。最后被"闹元宵"的精彩拍痛了手掌。
+
+每一位控制提线木偶的师傅都很厉害，需要多少次练习，才能做到这样的精妙。
+
+## 海岸线自驾
+
+这条海岸线被中国地理杂志评为中国最美海岸线之一。从晋江往石狮，沿着沿海大通道，从西往东。
+
+**七栩·海耳咖啡厅**：礁石酒店，建在礁石上。冬天的海是一部静谧又深沉的电影。海浪在凛冽的风中肆意翻涌，像一个个挣脱了枷锁的灵魂，带着不被驯服的倔强。
+
+**海上佛国·洛伽寺**：海上生庙，庙里看海。冬天的洛伽寺，有清澈的阳光和猛烈的风。某个拐角，某次抬头，总能和大海相遇——大概因为在庙里看海，心底会多了份被庇佑的安稳。
+
+**祥芝码头 / 巴浪鱼咖啡**：想起主理人阿梅在谈话中的哽咽："故乡有海，海却没有故乡"。巴浪鱼咖啡店，是特别的存在。
+
+## 梧林古村落
+
+"栽下梧桐树，能引凤凰来"，梧林距今已经有600多年的历史。涵盖闽南传统民居、中西合璧民居、哥特式建筑以及古罗马式建筑。走进梧林，一楼一故事，如同走进一本近代华侨史书。
+
+## 泉州美食
+
+面线糊、肉粽、坤记芋头饼、姜母鸭、醋肉、秉正堂四果汤、卤面、石花膏、绵绵冰。我们的打卡：刺桐别院、阿山姜母鸭、水门国仔面线糊、余温咖啡、大猫咖啡、侯阿婆肉粽、巴浪鱼咖啡……0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"className":"min-h-screen max-w-2xl mx-auto","children":[["$","$L2",null,{"city":{"slug":"quanzhou","name":"泉州","date":"2025.01","tagline":"半城烟火半城仙，神明的海上办事处","coordinates":{"x":72,"y":62},"photo":"/photos/quanzhou.jpg","keywords":["海上丝路","簪花","木偶","开元寺","海岸线"],"route":"/cities/quanzhou","notes":"$3","feelings":[{"id":"qz-f1","quote":"泉州有「世界宗教博物馆」之称，但我觉得更像「神明的合租公寓」。各住各的，相安无事。","context":"在涂门街看关帝庙和清净寺隔街相望"},{"id":"qz-f2","quote":"簪花围戴上的那一刻，我才意识到自己很久没有「被装饰」过了。成年人把很多东西简化到了无趣。","context":"蟳埔村体验簪花"},{"id":"qz-f3","quote":"当飞天与十字架相伴，莲花与天使共生，湿婆与观音一体——是真正开放包容的盛世气象。","context":"海交博物馆"}],"thoughts":[{"id":"qz-t1","title":"神明的邻里关系","body":"泉州最让我着迷的不是单一的庙宇，是它们之间的关系。涂门街上，关帝庙的香火袅袅升腾，几百米外就是中国现存最古老的伊斯兰教寺院清净寺，再走几步是文庙、天后宫。不同文明的巅峰之作像邻居一样排在一起。\n\n这不是「融合」——融合听起来像把所有东西倒进榨汁机。泉州是「并存」：各守各的规矩，各信各的神，但在同一片天空下。这种并存不需要理论框架，它就是一个港口城市千年日常积累下来的肌肉记忆。"},{"id":"qz-t2","title":"播客作为城市导游","body":"跟着老李的《来去泉州》播客走古城巷子，是一种全新的旅行方式。不是走马观花看景点，而是有人在你耳边轻声告诉你：这堵墙经历了八级地震不倒，这个转角藏着观音——你正在和一个了解这座城市的人共享视角。\n\n播客不像导游那样站在你面前，它更像一个「声音的图层」，叠加在你看到的街景之上。你可以随时暂停、回放、跳过。这种自主权和沉浸感的结合，可能是未来城市旅行的新形态。"}]}}],["$","nav",null,{"className":"px-4 pt-8 pb-12 border-t border-[#e8e0d5] flex justify-between items-center text-sm max-w-2xl mx-auto","children":[["$","$L4",null,{"href":"/cities/dali","className":"text-[#8c7b6b] hover:text-[#4a3728] transition-colors flex items-center gap-1.5 group","children":[["$","span",null,{"className":"group-hover:-translate-x-1 transition-transform text-xs","children":"←"}],["$","span",null,{"className":"hidden sm:inline","children":"大理"}]]}],["$","$L4",null,{"href":"/","className":"text-[#a09080] hover:text-[#4a3728] transition-colors text-xs tracking-wider","children":"足迹地图"}],["$","$L4",null,{"href":"/cities/hongkong","className":"text-[#8c7b6b] hover:text-[#4a3728] transition-colors flex items-center gap-1.5 group","children":[["$","span",null,{"className":"hidden sm:inline","children":"香港"}],["$","span",null,{"className":"group-hover:translate-x-1 transition-transform text-xs","children":"→"}]]}]]}]]}],[["$","script","script-0",{"src":"/footprint/_next/static/chunks/0l~28yxenhxzb.js","async":true}]],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"8JSc-z9Gb0KW6U8aEBVe_"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

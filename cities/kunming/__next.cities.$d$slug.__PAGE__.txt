@@ -1,7 +1,58 @@
 1:"$Sreact.fragment"
-2:I[31486,["/footprint/_next/static/chunks/01xlw8hd842-c.js","/footprint/_next/static/chunks/0d3shmwh5_nmn.js","/footprint/_next/static/chunks/0u7zhkr0vaz.t.js"],"default"]
-3:I[22016,["/footprint/_next/static/chunks/01xlw8hd842-c.js","/footprint/_next/static/chunks/0d3shmwh5_nmn.js","/footprint/_next/static/chunks/0u7zhkr0vaz.t.js"],""]
-4:I[97367,["/footprint/_next/static/chunks/01xlw8hd842-c.js","/footprint/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
-5:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"className":"min-h-screen max-w-2xl mx-auto","children":[["$","$L2",null,{"city":{"slug":"kunming","name":"昆明","date":"2024 夏","tagline":"一万次的春和景明，跟着汪曾祺吃遍春城","coordinates":{"x":42,"y":73},"photo":"/photos/kunming.jpg","keywords":["西南联大","汪曾祺","菜市场","翠湖"],"companion":"女儿（毕业旅行）","route":"/cities/kunming","topics":["在地建筑","文博展馆","美食记忆","自然景观"],"people":[{"id":"yellow-km","name":"Yellow","role":"女儿 — 毕业旅行","note":"从高考战场下来后的第一次长途旅行。她说昆明的云和广州不一样，我说是因为你的眼睛不一样了。"}],"fragments":[{"id":"km-1","type":"location","image":"/photos/kunming-lake.jpg","caption":"翠湖 — 满池荷花，老人在柳树下用云南话聊天下棋。","date":"2024.07.12"},{"id":"km-2","type":"moment","image":"/photos/kunming-market.jpg","caption":"篆新菜市场 — 汪曾祺说「到了一个新地方，有人爱逛百货公司，有人爱逛书店，我宁可去逛逛菜市场。」","date":"2024.07.13"},{"id":"km-3","type":"location","caption":"西南联大旧址 — 铁皮屋顶的教室，炮弹炸过三次，课没停过一节。","date":"2024.07.13"},{"id":"km-4","type":"ticket","caption":"云南陆军讲武堂 · 黄色门楼","date":"2024.07.14"},{"id":"km-5","type":"moment","caption":"过桥米线的仪式感：一碟碟往滚汤里放，像在进行某种古老的时间仪式。","date":"2024.07.14"}],"feelings":[{"id":"km-f1","quote":"汪曾祺教会我的不是吃什么，是用什么态度吃。他那代人经历了那么多，还能津津有味写一颗咸鸭蛋——这是很深的功力。","context":"在篆新菜市场看着熙熙攘攘的人群"},{"id":"km-f2","quote":"女儿问我：西南联大那么苦为什么还那么厉害？我想了想说，因为他们知道自己在为什么读书。","context":"西南联大旧址，Yellow 的一个提问"}],"thoughts":[{"id":"km-t1","title":"菜市场是城市的「胃镜」","body":"汪曾祺说菜市场最有生气。在篆新菜市场转了三个小时，我大概理解了他的意思。菜市场是城市最诚实的器官——没有滤镜，没有文案，没有「打卡点」。食材怎么摆、老板怎么吆喝、买菜的人问什么问题，这些才是城市的底层代码。\n\n篆新的菌子摊前围满了人，老板一边削松茸一边教你怎么挑。那种知识传递的密度，不亚于任何一堂课。西南联大的教授们当年可能就在这样的菜市场旁边备课。"},{"id":"km-t2","title":"铁皮屋顶下的「抗干扰力」","body":"在西南联大旧址看到一个细节：铁皮屋顶的教室，下雨时雨声大到老师讲课根本听不见。有一次陈岱孙教授在黑板上写了四个字：「静坐听雨」。\n\n这是个极好的隐喻。信息过载的时代，我们缺的不是更多的「输入」，是「静坐听雨」的能力——在不可阻挡的噪音中保持内心的课堂秩序。"}]}}],["$","nav",null,{"className":"px-4 pt-8 pb-12 border-t border-[#e8e0d5] flex justify-between items-center text-sm max-w-2xl mx-auto","children":[["$","$L3",null,{"href":"/cities/jinan-yantai","className":"text-[#8c7b6b] hover:text-[#4a3728] transition-colors flex items-center gap-1.5 group","children":[["$","span",null,{"className":"group-hover:-translate-x-1 transition-transform text-xs","children":"←"}],["$","span",null,{"className":"hidden sm:inline","children":"济南 & 烟台"}]]}],["$","$L3",null,{"href":"/","className":"text-[#a09080] hover:text-[#4a3728] transition-colors text-xs tracking-wider","children":"足迹地图"}],["$","$L3",null,{"href":"/cities/dali","className":"text-[#8c7b6b] hover:text-[#4a3728] transition-colors flex items-center gap-1.5 group","children":[["$","span",null,{"className":"hidden sm:inline","children":"大理"}],["$","span",null,{"className":"group-hover:translate-x-1 transition-transform text-xs","children":"→"}]]}]]}]]}],[["$","script","script-0",{"src":"/footprint/_next/static/chunks/0u7zhkr0vaz.t.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"L2lG6UDXMaJVkJxDH0yHH"}
-6:null
+2:I[31486,["/footprint/_next/static/chunks/01xlw8hd842-c.js","/footprint/_next/static/chunks/0d3shmwh5_nmn.js","/footprint/_next/static/chunks/0l~28yxenhxzb.js"],"default"]
+4:I[22016,["/footprint/_next/static/chunks/01xlw8hd842-c.js","/footprint/_next/static/chunks/0d3shmwh5_nmn.js","/footprint/_next/static/chunks/0l~28yxenhxzb.js"],""]
+6:I[97367,["/footprint/_next/static/chunks/01xlw8hd842-c.js","/footprint/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T10ca,年轻时候，向往广袤无边的自然，昆明自然就成了中转站。从未想过在昆明停留。
+
+直到和女儿关注了中国近代史，关于西南联大那段激情燃烧的岁月，更是读汪曾祺老先生的书，读他笔下的昆明的雨、汽锅鸡、翠湖；还有陈晓卿夸赞的品种齐全的农贸市场——于是，女儿毕业旅行的第一站，就毫不犹豫地选择了昆明。
+
+## 云南省博物馆
+
+每到一座城市，都会想去博物馆看看。云南在历史上是很特别的存在，极发达的青铜铸造技术，完全不输金沙文化的三星堆，并且艺术风格极其独立。古滇人各种生动的战争场景、日常生活、祭祀、动物厮杀的青铜器，神态都极其生动。
+
+"北有马踏飞燕，南有牛虎铜案"——牛虎铜案是镇馆八宝之一，曾被钱学森称为力与美的完美结合。
+
+## 昆明老街 | 东方书店
+
+西南联大时期转眼近百年，东方书店1926年开业，2018年旧址重建。旧楼、旧木柱、木桌、牌坊、挂画、旋转楼梯、中式木质六角宫灯、民国复古绿色、留声机、老式电话……各式复古摆件，让这座书店充满了浓郁的历史人文气息。
+
+不管书店的经营模式何种变化，它依然承载着传播知识的功能。书店仍然是距离人们最近的诗和远方。
+
+## 住在翠湖旁边
+
+我不是一个特别爱逛公园的人，却因为汪老笔下"翠湖是昆明的眼睛"这样的文字，住到了翠湖边。没有把它当做一个景点，就好像我是一名土生土长的昆明人，生活在翠湖边。
+
+> 汪曾祺《翠湖心影》："翠湖是一片湖，同时也是一条路……从喧嚣扰攘的闹市和刻板枯燥的机关里，匆匆忙忙地走过来，一进了翠湖，即刻就会觉得浑身轻松下来；生活的重压、柴米油盐、委屈烦恼，就会冲淡一些。人们不知不觉地放慢了脚步……"
+
+## 篆新农贸市场
+
+汪曾祺先生说："到了一个新的地方，宁可去逛逛菜市场。看到生鸡活鸭、新鲜水灵的瓜菜、彤红的辣椒，热热闹闹，挤挤挨挨，让人感到一种生之乐趣。"
+
+在云南，"春吃花、夏吃菌、秋吃果、冬吃根"。我骑上共享电动车，在昆明的微风中肆意驰骋，在篆新菜市场看到了具象的云南。篆新建立了我对云南的初步印象，也让我意识到了，原来大自然的丰富物产性，不设上限。
+
+当没有见过的瓜果蔬菜，一堆一堆地码在眼前，深红色、鹅黄色、翠绿色，洒上一层水，阳光下闪着光——那是一种令人舒适的视觉冲击。每一个小摊主都把自己的蔬菜水果陈列得特别好看，审美搭配在线。在菜市场，仿佛直接框上画框就变成了浓墨重彩的生活水粉画。
+
+## 西南联大旧址 & 云南大学
+
+云师大西南联大旧址，我站在草房子前，遥想他们当年静坐听雨、月下说诗。书影里的记忆扑面而来，破碎年代里的星光在我的脑海里闪耀灿烂。
+
+想到汪老先生笔下的《跑警报》：轰炸机响在头顶，联大人却做到了真正的随遇而安、从容洒脱。
+
+西南联大仅存八年，可足够后人怀念它，很多很多年……
+
+## 吃在昆明
+
+汪曾祺先生用他一生的赤诚天真去书写生活。在昆明，汪老先生写了云南汽锅鸡，写了云南菌子，云南米线。我们跟着汪老先生的笔下的烟火气，吃在昆明。
+
+福照楼汽锅鸡（始于1937年）、翠满珑破酥包、昆明冠生园野生菌瀑布灌汤包、茴香熙楼国宴级过桥米线、文山荷鲜居土鸡米线……
+
+## 昆明的咖啡
+
+地平线All-ttitude 1891的"篆新市场"特调，配小米辣、木姜子、黄柠檬——非常云南。9号咖啡9种自选豆抽签选。卡夫卡咖啡13年老店。
+
+> 于坚《老昆明》："昆明的伟大，不是历史的恩赐，而是大地的恩赐。它奉献给世界的不是济世英雄、开国功臣，而是单纯朴素的阳光、蓝天、白云、鲜花、空气、春天、大地和有益于生命的日常生活。"
+
+> 汪曾祺《人间草木》："路过人间，相遇离别后才发现：人生真正的幸福，不过就是万家灯火的温暖和柴米油盐的充实。"0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"className":"min-h-screen max-w-2xl mx-auto","children":[["$","$L2",null,{"city":{"slug":"kunming","name":"昆明","date":"2024 夏","tagline":"一万次的春和景明，跟着汪曾祺吃遍春城","coordinates":{"x":42,"y":73},"photo":"/photos/kunming.jpg","keywords":["西南联大","汪曾祺","篆新菜市场","翠湖","东方书店"],"companion":"女儿（毕业旅行）","route":"/cities/kunming","notes":"$3","feelings":[{"id":"km-f1","quote":"汪曾祺教会我的不是吃什么，是用什么态度吃。他那代人经历了那么多，还能津津有味写一颗咸鸭蛋——这是很深的功力。","context":"在篆新菜市场看着熙熙攘攘的人群"},{"id":"km-f2","quote":"菜市场是城市最诚实的器官——没有滤镜、没有文案、没有「打卡点」。食材怎么摆、老板怎么吆喝、买菜的人问什么问题，这些才是城市的底层代码。","context":"篆新农贸市场逛后"},{"id":"km-f3","quote":"西南联大仅存八年，可足够后人怀念它，很多很多年。","context":"西南联大旧址，站在草房子前"}],"thoughts":[{"id":"km-t1","title":"文学引路的旅行","body":"这趟昆明之行有一个很清晰的模式：先在文字里认识一座城市，再走到文字里的那个地点。汪曾祺写翠湖，我就住在翠湖旁边；汪曾祺写汽锅鸡，我就去找福照楼。\n\n这种「文学引路 + 个人体验」的结构，后来我发现不止昆明——泉州的《来去泉州》播客、济南的老舍、大理的安妮·埃尔诺——它其实是我旅行方式的自然基因。文字给了一个锚点，而真正的旅行是让自己的身体去验证、去补充、甚至去反驳那个锚点。"},{"id":"km-t2","title":"菜市场美学","body":"篆新菜市场让我重新理解了什么是「美」。不是博物馆里精心布置的展品，而是小摊主随手码放的一堆西红柿——红的、绿的、黄的，洒上水在阳光下闪光。这种美来自生活本身的有序和丰盛，没有任何「策展」意图。\n\n我突然理解了为什么汪曾祺的文字有那么多菜市场——因为菜市场是生活美学的原生现场。每一颗蔬菜都在说：活着本身就可以很美。"}]}}],["$","nav",null,{"className":"px-4 pt-8 pb-12 border-t border-[#e8e0d5] flex justify-between items-center text-sm max-w-2xl mx-auto","children":[["$","$L4",null,{"href":"/cities/jinan-yantai","className":"text-[#8c7b6b] hover:text-[#4a3728] transition-colors flex items-center gap-1.5 group","children":[["$","span",null,{"className":"group-hover:-translate-x-1 transition-transform text-xs","children":"←"}],["$","span",null,{"className":"hidden sm:inline","children":"济南 & 烟台"}]]}],["$","$L4",null,{"href":"/","className":"text-[#a09080] hover:text-[#4a3728] transition-colors text-xs tracking-wider","children":"足迹地图"}],["$","$L4",null,{"href":"/cities/dali","className":"text-[#8c7b6b] hover:text-[#4a3728] transition-colors flex items-center gap-1.5 group","children":[["$","span",null,{"className":"hidden sm:inline","children":"大理"}],["$","span",null,{"className":"group-hover:translate-x-1 transition-transform text-xs","children":"→"}]]}]]}]]}],[["$","script","script-0",{"src":"/footprint/_next/static/chunks/0l~28yxenhxzb.js","async":true}]],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"8JSc-z9Gb0KW6U8aEBVe_"}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

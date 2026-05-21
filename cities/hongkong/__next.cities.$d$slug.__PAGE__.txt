@@ -1,7 +1,56 @@
 1:"$Sreact.fragment"
-2:I[31486,["/footprint/_next/static/chunks/01xlw8hd842-c.js","/footprint/_next/static/chunks/0d3shmwh5_nmn.js","/footprint/_next/static/chunks/0u7zhkr0vaz.t.js"],"default"]
-3:I[22016,["/footprint/_next/static/chunks/01xlw8hd842-c.js","/footprint/_next/static/chunks/0d3shmwh5_nmn.js","/footprint/_next/static/chunks/0u7zhkr0vaz.t.js"],""]
-4:I[97367,["/footprint/_next/static/chunks/01xlw8hd842-c.js","/footprint/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
-5:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"className":"min-h-screen max-w-2xl mx-auto","children":[["$","$L2",null,{"city":{"slug":"hongkong","name":"香港","date":"2024.12","tagline":"与旧日的光影相逢，天荒地老流连在摩天轮","coordinates":{"x":67,"y":78},"photo":"/photos/hongkong.jpg","keywords":["港乐","TVB","大东山","叮叮车"],"companion":"Echo","route":"/cities/hongkong","topics":["市井烟火","自然景观","光影记忆","美食记忆"],"people":[{"id":"echo-hk","name":"Echo","role":"挚友 — 同行者","note":"两个听着粤语歌长大的人，在香港的街头终于找到了歌词里的坐标。"}],"fragments":[{"id":"hk-1","type":"moment","image":"/photos/hongkong-dingding.jpg","caption":"叮叮车二层 — 铜锣湾到中环，窗户开着，风吹得人不想下车。","date":"2024.12.20"},{"id":"hk-2","type":"location","image":"/photos/hongkong-peak.jpg","caption":"太平山顶 — 维港夜景像打翻了一盒珠宝。","date":"2024.12.21"},{"id":"hk-3","type":"ticket","caption":"天星小轮 · 尖沙咀→中环","date":"2024.12.21"},{"id":"hk-4","type":"moment","caption":"大东山芒草 — Eason《富士山下》MV 取景地，风吹过时整座山都在唱歌。","date":"2024.12.22"},{"id":"hk-5","type":"moment","caption":"庙街夜市 — 煲仔饭的焦香裹着摊贩的叫卖声。TVB 没有骗人。","date":"2024.12.22"}],"feelings":[{"id":"hk-f1","quote":"当叮叮车的轨道声和记忆里的港乐前奏重合的瞬间，我确认了一件事：有些地方你从未去过，但它一直在你身体里。","context":"第一次坐上叮叮车，轨道转弯发出吱呀声"},{"id":"hk-f2","quote":"和 Echo 站在维港边上，同时哼出《倾城》。成年人的友谊不需要每天联系，但在对的场景里，默契会自动解锁。","context":"维港夜景"}],"thoughts":[{"id":"hk-t1","title":"「未抵达的故乡」","body":"香港于我是一种很奇怪的存在：我从未来过，但它像一个「未抵达的故乡」。港乐、TVB 剧、电影——这些文化输出在我们这代人心里种下了一个比真实香港更完整的香港。中环、铜锣湾、旺角这些地名不是因为地图而存在，是因为无数个歌词、对白、剧情转折。\n\n所以这次来，不像是「旅行」，更像是「对答案」。每个地点都是一道填空题：原来叮叮车转弯真的是那种声音，原来兰桂坊的斜度和电视里一模一样。这种「验证」带来的快感，比发现新东西更强烈。"},{"id":"hk-t2","title":"密度与呼吸感","body":"香港是世界上人口密度最高的城市之一，但在大东山上，芒草摇曳，整片山野只有风声。这种「密度的张力」是香港最迷人的地方——你可以从中环的钢铁丛林出发，一小时内站到一座山上，看芒草像海浪一样起伏。\n\n现代人常说要「逃离城市」，香港人说：不需要逃离，你只需要上山。密度和呼吸感不是对立的——它们是可以并存的两种生活速度，取决于你选择哪条路。"}]}}],["$","nav",null,{"className":"px-4 pt-8 pb-12 border-t border-[#e8e0d5] flex justify-between items-center text-sm max-w-2xl mx-auto","children":[["$","$L3",null,{"href":"/cities/quanzhou","className":"text-[#8c7b6b] hover:text-[#4a3728] transition-colors flex items-center gap-1.5 group","children":[["$","span",null,{"className":"group-hover:-translate-x-1 transition-transform text-xs","children":"←"}],["$","span",null,{"className":"hidden sm:inline","children":"泉州"}]]}],["$","$L3",null,{"href":"/","className":"text-[#a09080] hover:text-[#4a3728] transition-colors text-xs tracking-wider","children":"足迹地图"}],["$","span",null,{}]]}]]}],[["$","script","script-0",{"src":"/footprint/_next/static/chunks/0u7zhkr0vaz.t.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"L2lG6UDXMaJVkJxDH0yHH"}
-6:null
+2:I[31486,["/footprint/_next/static/chunks/01xlw8hd842-c.js","/footprint/_next/static/chunks/0d3shmwh5_nmn.js","/footprint/_next/static/chunks/0l~28yxenhxzb.js"],"default"]
+4:I[22016,["/footprint/_next/static/chunks/01xlw8hd842-c.js","/footprint/_next/static/chunks/0d3shmwh5_nmn.js","/footprint/_next/static/chunks/0l~28yxenhxzb.js"],""]
+5:I[97367,["/footprint/_next/static/chunks/01xlw8hd842-c.js","/footprint/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:Te72,2024 | Gogo's city walk
+天荒地老流连在摩天轮，在高处凝望世界流动。
+
+香港好似时刻在演绎彩色的怀旧电影。是徐克电影里的东方明珠，是哥哥歌声中的不落传奇。脚步到处，和香港电影、香港音乐里的世界重合在一起，不同时空中，我们才发现，我们也成为了香港记忆中的一部分。
+
+## 香港音乐
+
+从声生不息第一季家年华，到现在正在热播的第三季大湾区，芒果台将香港音乐做成了一部厚重有温度的纪录片。
+
+我是受港台流行文化影响最深的一代人。港乐的表达，像一首诗，或者像一卷长篇小说，特别能走进人的内心。或深沉，或沧桑，或细腻，或敏感，传唱多年，依旧经典。
+
+当谭校长在舞台上唱出陈百强、哥哥的首本名曲，校长感慨"要是他们还在就好了"；当娴公举同时歌唱"千千阙歌"和"夕阳之歌"，梅姐在大屏幕上挥手说"再见"，两人影像跨时空对望的那一瞬间——我热泪盈眶。
+
+这个世界之所以美丽，是因为有一大批不想放弃的人。
+
+## 香港街头
+
+走上香港街头的那一瞬间，那个被香港文化影响、看过的TVB、电影、唱过的粤语歌汇成现实扑面而来。香港特有的文化带来的强烈冲击，从前听闻的世界，此刻就在脚下。
+
+多样，融合，秩序。香港是一个多种文化、风格的混沌融合体，历史与现代，古典和繁华，多种冲突在这个城市显得异常和谐。
+
+从百德新街到下一站天后，或者从皇后大道东或皇后大道中，搭着情缘巴士去到浅水湾。中环到上环，从尖沙咀到尖东，在密集的楼宇中、在匆忙狭窄的街头，在缓慢驶出的叮叮车。
+
+城市忙碌却不失秩序，人们总有自己节奏，在自己的步道行走。唯有叮叮车的铃声，穿梭于街巷之间，连接过去与现在。
+
+## 山海记忆 — 大东山
+
+大东山，香港的第三高峰，海拔869米，英文名叫 Sunset Peak（日落山峰），因陈奕迅在这里取景唱片封面，吸引大批歌迷前来打卡朝圣，大东山就此也被称为：陈奕迅山。
+
+12月是大东山最美登山季节，漫山遍野都长满了金黄色的芒草，这是属于香港的限定芒草季。山顶芒草如浪漫的金色海洋，在夕阳的照耀下熠熠生辉。
+
+6小时攀山越岭，只为了和这一山的芒草和日落合影，感受自然的壮丽。日落的金色时刻，晚霞的蓝调时刻，你会感慨世界如此美好。
+
+沿路遇到带着友善笑容的路人，跟你说：加油，小心D啊。有一个能说走就走的旅游搭子，能把属于这个城市的记忆留下美好的影像。
+
+## 香港影院
+
+走进香港影院，看子华神的《破·地狱》，以作为这次香港citywalk的ending。在香港影院观影体验非常棒，大家都是沉浸体验电影，没有手机响，没人看手机，没人摄屏，也没有人讲话甚至讨论。电影播完没有开灯，直到播完最后的片尾曲才开灯，所有观众都是安静听完歌再安静离场。
+
+这个约定俗成的秩序感，对电影人的尊重，真心希望不仅仅在香港才能看到。
+
+## 下一站，西九龙
+
+当天星小轮划过维港，两岸的风景如画，应节的圣诞树和维港的晚霞互相辉映。海风拂面，思绪万千。
+
+香港的魅力，不止于繁华，更在于那份独特的情怀。浮华背后，是不变的坚守。喧嚣之中，有深沉的底蕴。
+
+在香港，我与旧日的光影相逢，一眼万年。
+
+> 感谢我的摄影搭子和旅游搭子 @Echo小姐。毕竟，同频共振，很难得。0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"className":"min-h-screen max-w-2xl mx-auto","children":[["$","$L2",null,{"city":{"slug":"hongkong","name":"香港","date":"2024.12","tagline":"与旧日的光影相逢，天荒地老流连在摩天轮","coordinates":{"x":67,"y":78},"photo":"/photos/hongkong.jpg","keywords":["港乐","TVB","大东山","叮叮车","破·地狱"],"companion":"Echo","route":"/cities/hongkong","notes":"$3","feelings":[{"id":"hk-f1","quote":"当叮叮车的铃声穿梭于街巷之间，那个被香港文化影响、看过的TVB、唱过的粤语歌汇成现实扑面而来——从前听闻的世界，此刻就在脚下。","context":"第一次走在香港街头"},{"id":"hk-f2","quote":"这个世界之所以美丽，是因为有一大批不想放弃的人。","context":"看声生不息，谭咏麟唱陈百强、梅艳芳影像跨时空对望"}],"thoughts":[{"id":"hk-t1","title":"「未抵达的故乡」","body":"香港于我是一种很奇怪的存在：我从未来过，但它像一个「未抵达的故乡」。港乐、TVB剧、电影——这些文化输出在我们这代人心里种下了一个比真实香港更完整的香港。中环、铜锣湾、旺角这些地名不是因为地图而存在，是因为无数个歌词、对白、剧情转折。\n\n所以这次来，不像是「旅行」，更像是「对答案」。每个地点都是一道填空题：原来叮叮车转弯真的是那种声音，原来维港的晚霞和想象中一模一样。这种「验证」带来的快感，比发现新东西更强烈。"},{"id":"hk-t2","title":"观影秩序作为一种文明信号","body":"在香港影院看《破·地狱》，所有人安静看完片尾曲才离场——没人看手机、没人讲话、没人摄屏。这不是规定，是约定俗成。这种「对创作者劳动的尊重」已经成为群体本能。\n\n回来后我在想，这种秩序感的形成需要多久？它是一个城市文化资本长期积累的结果。香港的拥挤反而催生了对公共空间规则的严格内化——密度越高，越需要默契。"}]}}],["$","nav",null,{"className":"px-4 pt-8 pb-12 border-t border-[#e8e0d5] flex justify-between items-center text-sm max-w-2xl mx-auto","children":[["$","$L4",null,{"href":"/cities/quanzhou","className":"text-[#8c7b6b] hover:text-[#4a3728] transition-colors flex items-center gap-1.5 group","children":[["$","span",null,{"className":"group-hover:-translate-x-1 transition-transform text-xs","children":"←"}],["$","span",null,{"className":"hidden sm:inline","children":"泉州"}]]}],["$","$L4",null,{"href":"/","className":"text-[#a09080] hover:text-[#4a3728] transition-colors text-xs tracking-wider","children":"足迹地图"}],["$","span",null,{}]]}]]}],[["$","script","script-0",{"src":"/footprint/_next/static/chunks/0l~28yxenhxzb.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"8JSc-z9Gb0KW6U8aEBVe_"}
+7:null

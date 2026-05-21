@@ -1,7 +1,55 @@
 1:"$Sreact.fragment"
-2:I[31486,["/footprint/_next/static/chunks/01xlw8hd842-c.js","/footprint/_next/static/chunks/0d3shmwh5_nmn.js","/footprint/_next/static/chunks/0u7zhkr0vaz.t.js"],"default"]
-3:I[22016,["/footprint/_next/static/chunks/01xlw8hd842-c.js","/footprint/_next/static/chunks/0d3shmwh5_nmn.js","/footprint/_next/static/chunks/0u7zhkr0vaz.t.js"],""]
-4:I[97367,["/footprint/_next/static/chunks/01xlw8hd842-c.js","/footprint/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
-5:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"className":"min-h-screen max-w-2xl mx-auto","children":[["$","$L2",null,{"city":{"slug":"dali","name":"大理","date":"2025 夏","tagline":"按照你喜欢的方式生活，就是最好的人生","coordinates":{"x":38,"y":68},"photo":"/photos/dali.jpg","keywords":["风花雪月","乌托邦","主理人","苍山洱海"],"route":"/cities/dali","topics":["自然景观","在地建筑","文创聚落","美食记忆"],"people":[{"id":"dl-cafe-owner","name":"林姐","role":"咖啡馆主理人 · 前北京互联网人","note":"「逃离不是目的，重新定义生活才是。」在大理第五年，从写代码到烘豆子。"}],"fragments":[{"id":"dl-1","type":"moment","image":"/photos/dali-lake.jpg","caption":"洱海边骑行 — 苍山十九峰一字排开，像大地的脊背。","date":"2025.08.02"},{"id":"dl-2","type":"location","caption":"喜洲古镇 — 白族照壁上的题字，「清白传家」「琴鹤家声」，每家都有自己的信仰。","date":"2025.08.03"},{"id":"dl-3","type":"moment","caption":"林姐的咖啡馆里，一整个下午只有两拨客人。她说大理教会了她「允许」。","date":"2025.08.04"},{"id":"dl-4","type":"ticket","caption":"苍山索道票 · 洗马潭索道","date":"2025.08.05"}],"feelings":[{"id":"dl-f1","quote":"大理不是逃离的终点——它是你终于敢问自己「我想怎么活」的那个地方。","context":"在洱海边发呆的下午"},{"id":"dl-f2","quote":"白族照壁上写着「清白传家」四个字。一个民族的价值观刻在墙上，风吹日晒也不改。这种自信，我有点羡慕。","context":"喜洲古镇"}],"thoughts":[{"id":"dl-t1","title":"「主理人」现象与社会实验","body":"大理最有趣的不是风景，是人。几乎每家店都有一个「主理人」——这个称谓本身就很有意思。不是老板、不是经理，是「主理」。意味着他们「理」的是生活，不只是生意。\n\n林姐从北京来，之前在互联网大厂写代码。她说在大理，没人问你「在哪上班」，大家问「你最近做什么」。这个问题更具体、更当下，也更尊重人的流动性。\n\n大理像一个大型的社会实验：如果给人们足够的空间、阳光和低成本的安全网，他们会选择怎么生活？答案似乎是：他们会选择「认真生活」，而不是「认真工作」。"}]}}],["$","nav",null,{"className":"px-4 pt-8 pb-12 border-t border-[#e8e0d5] flex justify-between items-center text-sm max-w-2xl mx-auto","children":[["$","$L3",null,{"href":"/cities/kunming","className":"text-[#8c7b6b] hover:text-[#4a3728] transition-colors flex items-center gap-1.5 group","children":[["$","span",null,{"className":"group-hover:-translate-x-1 transition-transform text-xs","children":"←"}],["$","span",null,{"className":"hidden sm:inline","children":"昆明"}]]}],["$","$L3",null,{"href":"/","className":"text-[#a09080] hover:text-[#4a3728] transition-colors text-xs tracking-wider","children":"足迹地图"}],["$","$L3",null,{"href":"/cities/quanzhou","className":"text-[#8c7b6b] hover:text-[#4a3728] transition-colors flex items-center gap-1.5 group","children":[["$","span",null,{"className":"hidden sm:inline","children":"泉州"}],["$","span",null,{"className":"group-hover:translate-x-1 transition-transform text-xs","children":"→"}]]}]]}]]}],[["$","script","script-0",{"src":"/footprint/_next/static/chunks/0u7zhkr0vaz.t.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"L2lG6UDXMaJVkJxDH0yHH"}
-6:null
+2:I[31486,["/footprint/_next/static/chunks/01xlw8hd842-c.js","/footprint/_next/static/chunks/0d3shmwh5_nmn.js","/footprint/_next/static/chunks/0l~28yxenhxzb.js"],"default"]
+4:I[22016,["/footprint/_next/static/chunks/01xlw8hd842-c.js","/footprint/_next/static/chunks/0d3shmwh5_nmn.js","/footprint/_next/static/chunks/0l~28yxenhxzb.js"],""]
+5:I[97367,["/footprint/_next/static/chunks/01xlw8hd842-c.js","/footprint/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:Te5b,在大理的日子里，阳光、微风、云朵，苍山洱海……所有种种构成了对于大理的幻想。
+
+大理仿佛是给所有理想主义者提供了一个庇护所。在这里每天的日常就是看山看云看海，喝喝咖啡撸撸猫逗逗狗。在这里迟到是被允许的，摆烂也是被允许的，不会有人质疑你为什么不去上班。
+
+所以怎样才算成功呢，我觉得肯定不局限于世俗意义上的腰缠万贯、地位显赫、才高八斗。按照你喜欢的方式生活，就是最好的人生。
+
+> 安妮·埃尔诺在《悠悠岁月》里这样写道："生活不是我们活过的日子，而是我们记住的日子。"
+
+## 大理的云和风
+
+大理的云在天上，也在水里。晨时与暮色都在流动着，大理就是装着天空的城，盛大又浪漫。在稻田旁吃个漂亮饭，眼前的绿色摇曳着，如同宫崎骏动画一般出现在现实世界中。
+
+也许只有大理的风，可以流淌在时光里，波澜不惊。也许只有大理的风，可以抚慰浮躁的内心。
+
+## 大理的烟火气
+
+**三月街市集**：是城市中再也没有的风土人情。它丝毫都不精致也不潮流，是生活、是柴米油盐、是老百姓的市集，是大理除了风之外的烟火气。
+
+**大理床单厂艺术区**：每位摊主都极具个人风格和特色，各种原创手作饰品、包包、小物件儿、古着——捂紧我的小钱包。
+
+**三内可颂**：大理排行第一的面包店，好友每次到大理人肉飞行都要给我带回来的可颂。
+
+**寂照庵**："感而遂通，寂静照鉴"。漫山遍野的绣球花，庵里的师傅们真的有在好好生活，人均花艺大师。吃一碗红尘外的素斋饭，素白瓷碗盛着山野的馈赠。
+
+## 环洱海一直走
+
+洱海不是海，却也像大海一样，接纳着种种思绪、静静伫立在身边。安排一天沿着洱海一直开，从海西到海东，向海而行。经过没有开发的银梭岛，雨来了就淋着，太阳出来就晒着——大自然的一切和自由，才是你要去感受的。
+
+## 凤阳邑 | 荒堂美术馆
+
+因为《去有风的地方》取景地火起来的凤阳邑村，大理的茶马古道也经过这里。离开主街，拐进了荒堂美术馆——一个叫「荒堂」的美食美术馆。这里不仅有美食、有咖啡、有艺术，还有一个用猪圈改造的书房。
+
+它很符合我对乡村美术馆的一切想象：有文学、艺术，也有咖啡、美食，有当地的根，有阳光，也有精心改造后开的花。
+
+## 南诏·巍山
+
+它曾是南诏古国，如今名叫大理巍山。它是仙剑奇侠传中女娲后人赵灵儿的故乡，南诏古都真实有了存在，并非只是想象。
+
+**先锋巍山崇正书院**：始建于明弘治十四年（1501年），是蒙化第一所书院。先锋书店与崇正书院相逢，与时空重合。旧时书院里书声琅琅，今日数万书卷重归崇正——是一段记忆的延续。
+
+**耘熹进士精品酒店**：光绪十八年进士赵国泰的旧居修缮而成，安缦设计团队花了8年时间改造成精品酒店。四院以"春夏秋冬"为主线，只有15间客房。"耘熹"意为：只有历经辛勤劳作，人生才会迎来曙光。
+
+## 大理乌托邦
+
+大理是一个主理人浓度超标的城市。大理是一个很宜居的城市。夏天不热冬天不冷，慢慢的节奏很适合修心。
+
+如果这里是一个理想的国，那的确——不被自由囚禁，也被温柔释放。
+
+远苍山，近洱海，彩云之南，风花雪月。在这里时间被分为二半，一半给了安宁，一半给了感受。0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"className":"min-h-screen max-w-2xl mx-auto","children":[["$","$L2",null,{"city":{"slug":"dali","name":"大理","date":"2025 夏","tagline":"按照你喜欢的方式生活，就是最好的人生","coordinates":{"x":38,"y":68},"photo":"/photos/dali.jpg","keywords":["风花雪月","乌托邦","主理人","苍山洱海","巍山"],"route":"/cities/dali","notes":"$3","feelings":[{"id":"dl-f1","quote":"大理不是逃离的终点——它是你终于敢问自己「我想怎么活」的那个地方。","context":"在洱海边发呆的下午"},{"id":"dl-f2","quote":"按照你喜欢的方式生活，就是最好的人生。","context":"大理的日子"},{"id":"dl-f3","quote":"不被自由囚禁，也被温柔释放。","context":"离开大理时的感受"}],"thoughts":[{"id":"dl-t1","title":"「主理人」现象与社会实验","body":"大理最有趣的不是风景，是人。几乎每家店都有一个「主理人」——这个称谓本身就很有意思。不是老板、不是经理，是「主理」。意味着他们「理」的是生活，不只是生意。\n\n大理像一个大型的社会实验：如果给人们足够的空间、阳光和低成本的安全网，他们会选择怎么生活？答案似乎是：他们会选择「认真生活」，而不是「认真工作」。\n\n特纳的「阈限」理论在此获得当代诠释——新移民既非完全脱离都市文明，又未完全融入在地文化，持续处于身份转换的中间态。这种中间态不是过渡，而是一种目的地。"},{"id":"dl-t2","title":"三重文化叠层","body":"大理作为南诏文化发源地与当代新移民乌托邦的交汇点，形成了独特的文化叠层结构：表层是游客凝视下的「风花雪月」符号系统，中层存续着白族扎染、本主崇拜等活态文化遗产，底层涌动着数字游民、自然教育实践者等新移民群体创造的亚文化浪潮。\n\n这种三重文化时空的垂直叠加，为观察文化涵化机制、身份协商过程提供了天然实验室。在同一个空间里，你可以看到穿汉服的游客、做扎染的白族老人、在咖啡店里敲代码的数字游民——三种时间线并行。"}]}}],["$","nav",null,{"className":"px-4 pt-8 pb-12 border-t border-[#e8e0d5] flex justify-between items-center text-sm max-w-2xl mx-auto","children":[["$","$L4",null,{"href":"/cities/kunming","className":"text-[#8c7b6b] hover:text-[#4a3728] transition-colors flex items-center gap-1.5 group","children":[["$","span",null,{"className":"group-hover:-translate-x-1 transition-transform text-xs","children":"←"}],["$","span",null,{"className":"hidden sm:inline","children":"昆明"}]]}],["$","$L4",null,{"href":"/","className":"text-[#a09080] hover:text-[#4a3728] transition-colors text-xs tracking-wider","children":"足迹地图"}],["$","$L4",null,{"href":"/cities/quanzhou","className":"text-[#8c7b6b] hover:text-[#4a3728] transition-colors flex items-center gap-1.5 group","children":[["$","span",null,{"className":"hidden sm:inline","children":"泉州"}],["$","span",null,{"className":"group-hover:translate-x-1 transition-transform text-xs","children":"→"}]]}]]}]]}],[["$","script","script-0",{"src":"/footprint/_next/static/chunks/0l~28yxenhxzb.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"8JSc-z9Gb0KW6U8aEBVe_"}
+7:null

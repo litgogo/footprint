@@ -2,6 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: "export",
+  basePath: "/footprint",
   trailingSlash: true,
   images: {
     unoptimized: true,

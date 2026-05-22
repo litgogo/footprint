@@ -1,0 +1,76 @@
+1:"$Sreact.fragment"
+2:I[19449,["/footprint/_next/static/chunks/0~gewjrrbd95k.js","/footprint/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+3:I[39756,["/footprint/_next/static/chunks/0~gewjrrbd95k.js","/footprint/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+4:I[37457,["/footprint/_next/static/chunks/0~gewjrrbd95k.js","/footprint/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+6:I[97367,["/footprint/_next/static/chunks/0~gewjrrbd95k.js","/footprint/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+a:I[97367,["/footprint/_next/static/chunks/0~gewjrrbd95k.js","/footprint/_next/static/chunks/0d3shmwh5_nmn.js"],"ViewportBoundary"]
+c:I[97367,["/footprint/_next/static/chunks/0~gewjrrbd95k.js","/footprint/_next/static/chunks/0d3shmwh5_nmn.js"],"MetadataBoundary"]
+e:I[68027,["/footprint/_next/static/chunks/0~gewjrrbd95k.js","/footprint/_next/static/chunks/0d3shmwh5_nmn.js"],"default",1]
+:HL["/footprint/_next/static/chunks/00i9gbf7~qxpa.css","style"]
+:HL["https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500&display=swap","style"]
+0:{"P":null,"c":["","cities","jinan-yantai",""],"q":"","i":false,"f":[[["",{"children":["cities",{"children":[["slug","jinan-yantai","d",null],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/footprint/_next/static/chunks/00i9gbf7~qxpa.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/footprint/_next/static/chunks/0~gewjrrbd95k.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/footprint/_next/static/chunks/0d3shmwh5_nmn.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","className":"scroll-smooth","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500&display=swap","rel":"stylesheet"}]]}],["$","body",null,{"className":"antialiased min-h-screen","children":[["$","$L2",null,{}],["$","div",null,{"className":"pt-12 md:pt-14","children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"py-16 px-4 text-center border-t border-oat/50","children":[["$","p",null,{"className":"text-lg md:text-xl font-serif font-light text-ink-light tracking-wider leading-relaxed","children":["世界很大，",["$","br",null,{}],"但人总会记得某个傍晚吹过的风。"]}],["$","p",null,{"className":"mt-6 text-[10px] text-ink-muted tracking-[0.3em] font-light","children":"此处安放 · 二〇二六"}]]}]]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/footprint/_next/static/chunks/171si_unu2-ua.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,null]},null,false,"$@9"]},null,false,"$@9"]},null,false,null],["$","$1","h",{"children":[null,["$","$La",null,{"children":"$Lb"}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$Ld"}]}]}],null]}],false]],"m":"$undefined","G":["$e",[["$","link","0",{"rel":"stylesheet","href":"/footprint/_next/static/chunks/00i9gbf7~qxpa.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"FnK-IlQtElX-q_HnJMOYg"}
+f:[]
+9:"$Wf"
+10:I[31486,["/footprint/_next/static/chunks/0~gewjrrbd95k.js","/footprint/_next/static/chunks/0d3shmwh5_nmn.js","/footprint/_next/static/chunks/171si_unu2-ua.js"],"default"]
+11:T1204,我们从广州出发的时候，南方的冬天依旧潮湿。云压得很低，风没有形状。飞机起飞后，城市被拉远、缩小，直到落地济南——世界忽然安静下来。不是空旷，而是一种被调低音量的感觉。北方的冬天，没有刻意欢迎谁，它只是站在那里，等你自己慢慢走近。
+
+在济南，我们住进老舍的文字里，学会在泉水与小雪之间，把世界的音量调低。
+
+在烟台，历史向外展开，海始终在一旁，不动声色却始终有效的安慰。
+
+最后，在山海之间停下来，看海鸥落下，又飞起，才发现——有些旅行，不是为了抵达，而是为了在某个瞬间，重新感受到自己。
+
+当你愿意慢下来，城市才会开始说话。
+
+## DAY 1 · 济南 · 城市安静下来
+
+第一次走进济南老城，是在一个不太热闹的午后。巷子很窄，院子很低，墙皮旧得刚刚好。我们把行李放下，没有急着去任何地方，只是顺着泉水的方向走。水从石缝里流出来，绕过人家的门口。
+
+曲水亭街迎面走来穿着汉服妆容精致的小姐姐，汉服和穿着羽绒的现代人互相穿梭着，走在青石板路上，护城河的水弯弯曲曲，背后高楼耸立。那一刻突然明白，济南最动人的地方，并不是"景点"，而是生活本身。
+
+> "济南的冬天是没有风声的。"——老舍《济南的冬天》
+
+## DAY 2 · 济南 · 泉水之城
+
+这趟旅行里最早的一次醒来，为了清晨的趵突泉。泉池上方浮着一层薄雾，水声不大，却从未停止。泉水在寒冷中依然流动，白汽在空气里缓慢升起。城市的底气，原来并不来自热闹。
+
+下午，走进老舍住过的小院。院子不大，却被树影覆盖。忽然意识到——他写下的不是济南的美，而是一种被善待的感觉。
+
+> "一个老城，有山有水，全在天底下晒着阳光，暖和安适地睡着，只等春风来把它们唤醒。"——老舍《济南的冬天》
+
+大明湖，比想象中辽阔。残荷铺在水面上，风吹过，时间像被留白。
+
+## DAY 3 · 济南 · 时间之内
+
+在山东省博物馆和山东美术馆，左手历史，右手丹青。去看看那个笑成了表情包的亚丑钺，再看看薄如蝉翼的黑蛋壳杯。孔子展厅，巨幕亮起，圣贤归来——历史不再是枯燥的文字，而是眼前滚烫的视觉洪流。
+
+在省博，器物安静地站着。站在展厅里，很容易意识到个人的短暂。有些感受并非来自当下，而是时间本身留下的重量。
+
+山东美术馆里，当真正站在齐白石的画作前，看着那几只墨虾在宣纸上游动，仿佛能听到水流的声音。他的画让人停下脚步——不是张扬的力量，一笔下去，留白比墨更多，却让人退无可退。
+
+## 济南 · 小雪
+
+从历史的河流中回过神来，我们遇见了一场小雪。不是铺天盖地的那种，只是细细的、犹豫的，像在确认什么。
+
+作为南方人，我们对雪的期待，总带着一点不合时宜的执着。不是为了浪漫，而是为了确认——世界真的会在某个瞬间，变得不一样。雪没有下大，却已经足够。
+
+## DAY 4-7 · 烟台
+
+离开济南的高铁上，窗外是典型的北方冬景。火车向东，土地开始靠近海。
+
+烟台北的第一晚，是在繁华中度过的。车站、街灯、酒店，城市显得清醒而利落。在广兴果园，我们听见一个反复被提起的事实——中国的第一颗苹果，在这里诞生。原来一座城市的甜，不是后来加上的，而是从土地开始的。
+
+烟台山上，各国领事馆散落在坡道之间。红砖、白墙、尖顶，历史在这里向外展开。而海，就在一旁。不争、不抢，却始终存在。
+
+冬天的金沙滩，比夏天更清晰。海边那只巨大的、搁浅的"孤独的鲸"，在冬日的冷寂中显得格外静谧。不远处的时光塔像是一个沉默的容器，捕捉着变幻莫测的光影。
+
+回程的飞机再次起飞时，北方的冬天渐渐远去。可那几天的慢、静、冷、清澈，已经留在身体里。远方并没有结束，它只是换了一种方式，留在生活里。
+
+---
+
+> PS：这是我用公众号记录下来的和女儿一起走过看过的第12，13个中国城市。用文字记录一起看世界的方式。从她需要我的照顾，到她已经长大，有自己的主见和看世界的角度。像闺蜜像姐妹一样，去探索这个我们未知的世界，去交换我们对这个城市的思考和感悟。5:["$","$L10",null,{"city":{"slug":"jinan-yantai","name":"济南 & 烟台","date":"2026.02","tagline":"在泉水与小雪之间，把世界的音量调低","coordinates":{"x":68,"y":35},"photo":"/photos/jinan-yantai.jpg","keywords":["泉水","老舍","无风声的冬天","海","齐鲁"],"companion":"女儿","route":"/cities/jinan-yantai","vibe":"小雪","notes":"$11","feelings":[{"id":"jn-f1","quote":"济南的冬天是没有风声的——老舍诚不欺我。站在这座城里，才懂什么叫「温晴」。","context":"出发前刚读完《济南的冬天》，到趵突泉那一刻的验证感"},{"id":"jn-f2","quote":"济南最动人的地方，并不是「景点」，而是生活本身。城市没有向我们证明什么，只是把日常摊开，让人不自觉地慢下来。","context":"走在济南老城的巷子里"},{"id":"jn-f3","quote":"当世界变得辽阔，心事自然变小。","context":"烟台金沙滩，冬天的海岸线"},{"id":"jn-f4","quote":"有些旅行，不是为了抵达，而是为了在某个瞬间，重新感受到自己。","context":"旅程结束前的感悟"}],"thoughts":[{"id":"jn-t1","title":"一座城市的「听觉温度」","body":"济南的冬天被老舍定义成了一种声音——「没有风声」。这不是数据的温度，是体感的温度。人在一个城市里的感受，往往不是气温决定的，是这座城市「听起来怎样」决定的。济南听起来是泉水声，小而持续，像白噪音机器。\n\n现代人总是戴着降噪耳机去对抗城市噪音，但济南自己就是一台降噪机器。这让我想起一个观点：城市的宜居性，可能应该用「分贝数」来排名，而不是GDP。"},{"id":"jn-t2","title":"双城记：水的两种形态","body":"济南和烟台放在一起，恰好构成了水的两种形态。济南的水是泉水——汩汩向上的、恒温的、被山体过滤了亿万年的地下水。烟台的水是海——开阔的、咸涩的、日夜不停拍打堤岸的渤海。\n\n一城守着一城的液体。泉水和海水同时存在于同一趟旅程里，让我觉得旅行的意义之一是：看同一元素在不同地理条件下的形态变化。水可以是活的（泉水），也可以是深的（海）；可以是收的（护城河），也可以是放的（金沙滩）。"}]}}]
+b:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+12:I[27201,["/footprint/_next/static/chunks/0~gewjrrbd95k.js","/footprint/_next/static/chunks/0d3shmwh5_nmn.js"],"IconMark"]
+8:null
+d:[["$","title","0",{"children":"此处安放 · 足迹"}],["$","meta","1",{"name":"description","content":"脚步的延伸，是认知的位移。奔赴山海，和自己重逢。"}],["$","link","2",{"rel":"icon","href":"/footprint/favicon.ico?favicon.0x3dzn~oxb6tn.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L12","3",{}]]

@@ -24,6 +24,7 @@ export interface City {
   keywords: string[];
   companion?: string;
   route: string;
+  vibe: string;
 
   notes: string;           // 游记正文（Markdown）
   feelings: Feeling[];     // 感受摘录
@@ -44,6 +45,7 @@ const hongkong: City = {
   keywords: ["港乐", "TVB", "大东山", "叮叮车", "破·地狱"],
   companion: "Echo",
   route: "/cities/hongkong",
+  vibe: "摩天轮",
 
   notes: `2024 | Gogo's city walk
 天荒地老流连在摩天轮，在高处凝望世界流动。
@@ -137,6 +139,7 @@ const kunming: City = {
   keywords: ["西南联大", "汪曾祺", "篆新菜市场", "翠湖", "东方书店"],
   companion: "女儿（毕业旅行）",
   route: "/cities/kunming",
+  vibe: "春和",
 
   notes: `年轻时候，向往广袤无边的自然，昆明自然就成了中转站。从未想过在昆明停留。
 
@@ -235,6 +238,7 @@ const quanzhou: City = {
   photo: "/photos/quanzhou.jpg",
   keywords: ["海上丝路", "簪花", "木偶", "开元寺", "海岸线"],
   route: "/cities/quanzhou",
+  vibe: "神明",
 
   notes: `提及泉州，便是"半城烟火半城仙"，五步一寺庙十步一神佛，红砖古厝错落间，一面是寺内的仙宫玉阙，一面是寺外的烟火人间。
 
@@ -339,6 +343,7 @@ const dali: City = {
   photo: "/photos/dali.jpg",
   keywords: ["风花雪月", "乌托邦", "主理人", "苍山洱海", "巍山"],
   route: "/cities/dali",
+  vibe: "自由",
 
   notes: `在大理的日子里，阳光、微风、云朵，苍山洱海……所有种种构成了对于大理的幻想。
 
@@ -436,6 +441,7 @@ const jinanYantai: City = {
   keywords: ["泉水", "老舍", "无风声的冬天", "海", "齐鲁"],
   companion: "女儿",
   route: "/cities/jinan-yantai",
+  vibe: "小雪",
 
   notes: `我们从广州出发的时候，南方的冬天依旧潮湿。云压得很低，风没有形状。飞机起飞后，城市被拉远、缩小，直到落地济南——世界忽然安静下来。不是空旷，而是一种被调低音量的感觉。北方的冬天，没有刻意欢迎谁，它只是站在那里，等你自己慢慢走近。
 
@@ -551,6 +557,7 @@ const beijing: City = {
   photo: "/photos/beijing.jpg",
   keywords: ["皇城", "故宫", "清华", "鸟巢", "烤鸭"],
   route: "/cities/beijing",
+  vibe: "皇城",
   notes: `印象北京
 BeiJing
 行走昨日皇城，
@@ -682,6 +689,7 @@ const changsha: City = {
   keywords: ["马王堆", "橘子洲", "岳麓书院", "茶颜悦色", "米粉"],
   companion: "女儿",
   route: "/cities/changsha",
+  vibe: "热烈",
   notes: `怎么形容长沙呢
 是喧闹的、热烈的、浪漫的
 是文人气、江湖气和烟火气
@@ -859,6 +867,7 @@ const chengdu: City = {
   keywords: ["锦官城", "川西", "藏传佛教", "烟火", "巴适"],
   companion: "女儿",
   route: "/cities/chengdu",
+  vibe: "锦官",
   notes: `#一起去旅行，看不同经纬度城市的样子
 July
 28,
@@ -970,6 +979,7 @@ const datong: City = {
   keywords: ["云冈石窟", "北魏", "古建", "华严寺", "悬空寺"],
   companion: "Echo",
   route: "/cities/datong",
+  vibe: "北魏",
   notes: `I WANT TO
 TRAVEL IN SHANXI
 I WANT TO TRAVEL IN DATONG
@@ -1158,6 +1168,7 @@ const guizhou: City = {
   keywords: ["黔行", "苗寨", "酸汤鱼", "避暑", "黄果树"],
   companion: "女儿 + 小表哥",
   route: "/cities/guizhou",
+  vibe: "清凉",
   notes: `一路黔行
 Travel
 GUIZHOU
@@ -1331,6 +1342,7 @@ const hangzhou: City = {
   keywords: ["西湖", "小河直街", "江南", "灵隐寺", "运河"],
   companion: "女儿",
   route: "/cities/hangzhou",
+  vibe: "江南",
   notes: `盛夏
 喜欢夏天的光照，风的气息，蝉的鸣叫
 竹深树密虫鸣处
@@ -1468,6 +1480,7 @@ const nanjing: City = {
   keywords: ["金陵", "秦淮", "梧桐", "六朝", "先锋书店"],
   companion: "女儿",
   route: "/cities/nanjing",
+  vibe: "秦淮",
   notes: `COLLECTION
 2022
 城市行走记忆
@@ -1641,6 +1654,7 @@ const qingdao: City = {
   keywords: ["德式建筑", "栈桥", "徐京坤", "大海", "鲁菜"],
   companion: "Echo",
   route: "/cities/qingdao",
+  vibe: "海风",
   notes: `Hello,Qingdao
 因为看了许知远对话世界上航行最远的独臂船长“徐京坤”，青岛，就成了我下一站旅行的城市。
 一个美丽的中国东部的海滨城市，作为曾经的德国殖民地，参与过辛亥革命的民主运动，在中国近代史中扮演过重要角色，现作为我国东部的重要的港口城市，我来了。
@@ -1794,6 +1808,7 @@ const chongqing: City = {
   keywords: ["山城", "轻轨穿楼", "洪崖洞", "江湖菜", "长江索道"],
   companion: "Ice + Echo",
   route: "/cities/chongqing",
+  vibe: "雾都",
   notes: `CHONGQING
 CITY
 山城，

@@ -1,44 +1,38 @@
-import { cities } from "@/data/cities";
+"use client";
 
-// 精选几个城市做杂志目录式展示
-const featured = cities.slice(0, 8);
+import Link from "next/link";
+import { cities } from "@/data/cities";
 
 export default function TravelStories() {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
-      {featured.map((city) => (
-          <div key={city.slug} className="group block">
-          <div className="relative overflow-hidden rounded-lg aspect-[3/4]">
-            {/* 大图 */}
-            {city.photo ? (
-              <img
-                src={`/footprint${city.photo}`}
-                alt={city.name}
-                className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
-                loading="lazy"
-              />
-            ) : (
-              <div className="w-full h-full bg-oat" />
-            )}
-
-            {/* 暗色渐变 + 文字覆盖 */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
-
-            {/* 文字 */}
-            <div className="absolute bottom-0 left-0 right-0 p-4 md:p-5">
-              <p className="text-[10px] tracking-[0.2em] text-white/60 mb-1 font-sans">
-                {city.date}
-              </p>
-              <h3 className="text-sm md:text-base font-serif font-light text-white tracking-wide">
-                {city.name}
-                {city.name.includes("&") ? "" : ""}
-              </h3>
-              <p className="text-xs text-white/70 mt-1 leading-relaxed line-clamp-2">
-                {city.tagline}
-              </p>
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
+      {cities.map((city) => (
+        <Link
+          key={city.slug}
+          href={`/cities/${city.slug}`}
+          className="group block"
+        >
+          {/* 图片占位区 — 后续统一替换 */}
+          <div className="relative overflow-hidden bg-oat/30 aspect-[4/3] mb-5">
+            <div className="absolute inset-0 flex items-center justify-center">
+              <span className="text-6xl md:text-7xl text-oat/40 font-serif select-none">
+                {city.name.slice(0, 1)}
+              </span>
             </div>
           </div>
+
+          {/* 文字区 */}
+          <div className="space-y-1.5">
+            <h2 className="text-lg md:text-xl font-serif font-light text-ink tracking-wide group-hover:text-film transition-colors duration-300">
+              {city.name}
+              <span className="text-film/60 mx-1.5">·</span>
+              <span className="text-ink-light font-light">{city.vibe}</span>
+            </h2>
+            <p className="text-xs tracking-[0.15em] text-ink-muted font-sans">
+              {city.date}
+            </p>
           </div>
+        </Link>
       ))}
     </div>
   );

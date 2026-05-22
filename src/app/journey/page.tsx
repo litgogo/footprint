@@ -1,8 +1,8 @@
-import CityPortals from "@/components/CityPortals";
+import CityFragments from "@/components/CityFragments";
 
 export default function JourneyPage() {
   return (
-    <main className="min-h-screen py-24 px-4 max-w-5xl mx-auto">
+    <main className="min-h-screen py-24 px-4 max-w-3xl mx-auto">
       <div className="text-center mb-16">
         <h1 className="text-2xl md:text-3xl font-serif font-light text-ink tracking-widest">
           城市印记
@@ -13,10 +13,10 @@ export default function JourneyPage() {
           <span className="block w-8 h-px bg-film/30" />
         </div>
         <p className="text-sm text-ink-muted tracking-widest max-w-md mx-auto leading-relaxed">
-          每一座城市，都是情绪的先验
+          旅途中记下的一句话
         </p>
       </div>
-      <CityPortals />
+      <CityFragments />
     </main>
   );
 }

@@ -12,13 +12,22 @@ export default function TravelStories() {
           href={`/cities/${city.slug}`}
           className="group block"
         >
-          {/* 图片占位区 — 后续统一替换 */}
+          {/* 图片区 */}
           <div className="relative overflow-hidden bg-oat/30 aspect-[4/3] mb-5">
-            <div className="absolute inset-0 flex items-center justify-center">
-              <span className="text-6xl md:text-7xl text-oat/40 font-serif select-none">
-                {city.name.slice(0, 1)}
-              </span>
-            </div>
+            {city.photo ? (
+              <img
+                src={`/footprint${city.photo}`}
+                alt={city.name}
+                className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+                loading="lazy"
+              />
+            ) : (
+              <div className="absolute inset-0 flex items-center justify-center">
+                <span className="text-6xl md:text-7xl text-oat/40 font-serif select-none">
+                  {city.name.slice(0, 1)}
+                </span>
+              </div>
+            )}
           </div>
 
           {/* 文字区 */}

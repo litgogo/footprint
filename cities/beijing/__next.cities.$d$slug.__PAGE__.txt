@@ -1,7 +1,7 @@
 1:"$Sreact.fragment"
-2:I[31486,["/footprint/_next/static/chunks/01xlw8hd842-c.js","/footprint/_next/static/chunks/0d3shmwh5_nmn.js","/footprint/_next/static/chunks/0z07vf_qdhgh-.js"],"default"]
-7:I[22016,["/footprint/_next/static/chunks/01xlw8hd842-c.js","/footprint/_next/static/chunks/0d3shmwh5_nmn.js","/footprint/_next/static/chunks/0z07vf_qdhgh-.js"],""]
-8:I[97367,["/footprint/_next/static/chunks/01xlw8hd842-c.js","/footprint/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+2:I[31486,["/footprint/_next/static/chunks/0~gewjrrbd95k.js","/footprint/_next/static/chunks/0d3shmwh5_nmn.js","/footprint/_next/static/chunks/0pei2m8xebkda.js"],"default"]
+7:I[22016,["/footprint/_next/static/chunks/0~gewjrrbd95k.js","/footprint/_next/static/chunks/0d3shmwh5_nmn.js","/footprint/_next/static/chunks/0pei2m8xebkda.js"],""]
+8:I[97367,["/footprint/_next/static/chunks/0~gewjrrbd95k.js","/footprint/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
 9:"$Sreact.suspense"
 3:T1f75,印象北京
 BeiJing
@@ -98,8 +98,8 @@ TiTips：
 无
 gogo的胡思乱想
 游记|阅读|电影|美食|杂记
-空·0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"className":"min-h-screen max-w-2xl mx-auto","children":[["$","$L2",null,{"city":{"slug":"beijing","name":"北京","date":"2026","tagline":"行走昨日皇城，尽数今日风流","coordinates":{"x":66,"y":22},"photo":"/photos/beijing.jpg","keywords":["皇城","故宫","清华","鸟巢","烤鸭"],"route":"/cities/beijing","notes":"$3","feelings":[{"id":"bj-f1","quote":"北京，一座见证了24位帝王兴衰成败的古都。无处不在的历史和文化，无限的摩登元素与老北京地道的京味儿相互交融。","context":"初到北京"},{"id":"bj-f2","quote":"大学之大不在于大楼之大，而在于大师。","context":"清华艺术馆"}],"thoughts":[{"id":"bj-t1","title":"皇城与现代的双重曝光","body":"北京是一座让人产生「双重曝光」感的城市。走在故宫的红墙下，能看见乾隆盛世的幻影；转身进入鸟巢水立方，又立刻被当代的钢结构和玻璃幕墙包围。\n\n这不是简单的「古今交融」——古今交融暗示的是和谐。北京的古今更像是一种「并存中的张力」：皇权的庄严和奥运的狂欢在同一片天空下，互不相让，又彼此成就。这种张力本身就是北京最独特的城市美学。"}]}}],"$L4"]}],["$L5"],"$L6"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"38LrapnSUxQSZHqd59wGk"}
+空·0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"className":"min-h-screen max-w-2xl mx-auto","children":[["$","$L2",null,{"city":{"slug":"beijing","name":"北京","date":"2026","tagline":"行走昨日皇城，尽数今日风流","coordinates":{"x":66,"y":22},"photo":"/photos/beijing.jpg","keywords":["皇城","故宫","清华","鸟巢","烤鸭"],"route":"/cities/beijing","notes":"$3","feelings":[{"id":"bj-f1","quote":"北京，一座见证了24位帝王兴衰成败的古都。无处不在的历史和文化，无限的摩登元素与老北京地道的京味儿相互交融。","context":"初到北京"},{"id":"bj-f2","quote":"大学之大不在于大楼之大，而在于大师。","context":"清华艺术馆"}],"thoughts":[{"id":"bj-t1","title":"皇城与现代的双重曝光","body":"北京是一座让人产生「双重曝光」感的城市。走在故宫的红墙下，能看见乾隆盛世的幻影；转身进入鸟巢水立方，又立刻被当代的钢结构和玻璃幕墙包围。\n\n这不是简单的「古今交融」——古今交融暗示的是和谐。北京的古今更像是一种「并存中的张力」：皇权的庄严和奥运的狂欢在同一片天空下，互不相让，又彼此成就。这种张力本身就是北京最独特的城市美学。"}]}}],"$L4"]}],["$L5"],"$L6"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"j8sEbENIILDnR6gZqAUje"}
 4:["$","nav",null,{"className":"px-4 pt-8 pb-12 border-t border-oat flex justify-between items-center text-sm max-w-2xl mx-auto","children":[["$","span",null,{}],["$","$L7",null,{"href":"/","className":"text-ink-muted hover:text-ink transition-colors text-xs tracking-wider","children":"足迹地图"}],["$","$L7",null,{"href":"/cities/changsha","className":"text-ink-light hover:text-ink transition-colors flex items-center gap-1.5 group","children":[["$","span",null,{"className":"hidden sm:inline","children":"长沙"}],["$","span",null,{"className":"group-hover:translate-x-1 transition-transform text-xs","children":"→"}]]}]]}]
-5:["$","script","script-0",{"src":"/footprint/_next/static/chunks/0z07vf_qdhgh-.js","async":true}]
+5:["$","script","script-0",{"src":"/footprint/_next/static/chunks/0pei2m8xebkda.js","async":true}]
 6:["$","$L8",null,{"children":["$","$9",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]
 a:null

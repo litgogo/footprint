@@ -1,3 +1,3 @@
-:HL["/footprint/_next/static/chunks/09s5bywm_v17a.css","style"]
+:HL["/footprint/_next/static/chunks/0axl.jt-4wus1.css","style"]
 :HL["https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500&display=swap","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"cities","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"kunming","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"38LrapnSUxQSZHqd59wGk"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"cities","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"kunming","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"j8sEbENIILDnR6gZqAUje"}

@@ -2,7 +2,6 @@
 
 import { cities } from "@/data/cities";
 import { cityIconMap } from "@/components/CityIcons";
-import Link from "next/link";
 
 export default function CityPortals() {
   return (
@@ -11,11 +10,7 @@ export default function CityPortals() {
         const Icon = cityIconMap[city.slug];
 
         return (
-          <Link
-            key={city.slug}
-            href={city.route}
-            className="group block"
-          >
+          <div key={city.slug} className="group block">
             <div
               className="
                 relative bg-warm/80 backdrop-blur-sm
@@ -69,7 +64,7 @@ export default function CityPortals() {
                 </svg>
               </div>
             </div>
-          </Link>
+          </div>
         );
       })}
     </div>

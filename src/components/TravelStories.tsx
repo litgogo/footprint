@@ -1,5 +1,4 @@
 import { cities } from "@/data/cities";
-import Link from "next/link";
 
 // 精选几个城市做杂志目录式展示
 const featured = cities.slice(0, 8);
@@ -8,11 +7,7 @@ export default function TravelStories() {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
       {featured.map((city) => (
-        <Link
-          key={city.slug}
-          href={city.route}
-          className="group block"
-        >
+          <div key={city.slug} className="group block">
           <div className="relative overflow-hidden rounded-lg aspect-[3/4]">
             {/* 大图 */}
             {city.photo ? (
@@ -43,7 +38,7 @@ export default function TravelStories() {
               </p>
             </div>
           </div>
-        </Link>
+          </div>
       ))}
     </div>
   );

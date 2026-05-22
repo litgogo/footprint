@@ -1,5 +1,4 @@
 import { cities } from "@/data/cities";
-import Link from "next/link";
 
 // 按年份分组
 const timeline = cities.reduce(
@@ -38,10 +37,7 @@ export default function TravelTimeline() {
             {/* 城市列表 */}
             <div className="space-y-2">
               {timeline[year].map((city) => (
-                <Link
-                  key={city.slug}
-                  href={city.route}
-                  className="group flex items-center gap-3 py-2 border-b border-oat/50 hover:border-film/30 transition-all duration-300"
+              <div key={city.slug} className="group flex items-center gap-3 py-2 border-b border-oat/50 hover:border-film/30 transition-all duration-300 cursor-default"
                 >
                   {/* 小圆点 */}
                   <span className="w-2 h-2 rounded-full bg-film/50 group-hover:bg-film group-hover:scale-125 transition-all duration-300 flex-shrink-0" />
@@ -60,7 +56,7 @@ export default function TravelTimeline() {
                   <span className="text-xs text-ink-muted opacity-0 group-hover:opacity-100 transition-all duration-300 group-hover:translate-x-1 transform">
                     →
                   </span>
-                </Link>
+              </div>
               ))}
             </div>
           </div>

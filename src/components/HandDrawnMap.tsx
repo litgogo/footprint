@@ -1,11 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import { useRouter } from "next/navigation";
 import { cities, City } from "@/data/cities";
 
 export default function HandDrawnMap() {
-  const router = useRouter();
   const [hovered, setHovered] = useState<string | null>(null);
 
   return (
@@ -50,8 +48,7 @@ export default function HandDrawnMap() {
                 style={{ opacity: dotOpacity, transition: "opacity 0.4s ease" }}
                 onMouseEnter={() => setHovered(city.slug)}
                 onMouseLeave={() => setHovered(null)}
-                onClick={() => router.push(city.route)}
-                className="cursor-pointer"
+                className="cursor-default"
               >
                 {/* 外圈微光 */}
                 <circle

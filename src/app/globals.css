@@ -1,14 +1,39 @@
 @import "tailwindcss";
 
+/* ============================================================
+   色彩系统 — 「旧杂志纸张」调性
+   不用纯黑 · 不用高饱和 · 像旧杂志纸张
+   ============================================================ */
+
 @theme inline {
   --font-sans: "Noto Sans SC", ui-sans-serif, system-ui, sans-serif;
   --font-serif: "Noto Serif SC", ui-serif, Georgia, serif;
+
+  /* 主色（大面积背景） */
+  --color-paper: #F7F4EE;         /* 米白背景 */
+  --color-warm: #FBFAF7;          /* 暖白 */
+  --color-oat: #EAE3D7;           /* 浅燕麦 */
+
+  /* 辅助色（旅行氛围） */
+  --color-sea: #A8BCC7;           /* 海盐蓝 */
+  --color-mist: #8796A1;          /* 雾灰蓝 */
+  --color-forest: #7C8A7A;        /* 森林灰绿 */
+  --color-brown: #B58B67;         /* 暖棕 */
+
+  /* 点缀色（少量） */
+  --color-sunset: #D89A6A;        /* 日落橘 */
+  --color-film: #9C6B60;          /* 旧胶片红 */
+
+  /* 文字色阶 */
+  --color-ink: #4A3B32;           /* 正文墨色 */
+  --color-ink-light: #6B5D4F;     /* 次级文字 */
+  --color-ink-muted: #A0988C;     /* 弱化文字 */
 }
 
 @layer base {
   body {
-    background: #faf8f5;
-    color: #3d3226;
+    background: var(--color-paper);
+    color: var(--color-ink);
     font-family: var(--font-sans);
     -webkit-font-smoothing: antialiased;
   }
@@ -18,21 +43,15 @@
   }
 
   ::selection {
-    background: #c75146;
+    background: var(--color-film);
     color: #fff;
   }
 }
 
-/* 卡片入场微动效 */
+/* 卡片入场 */
 @keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(12px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
 
 @keyframes fadeIn {
@@ -40,7 +59,6 @@
   to   { opacity: 1; }
 }
 
-/* 图片加载渐显 */
 img {
   animation: fadeIn 0.5s ease both;
 }

@@ -39,11 +39,11 @@ function CityNavigation({ currentSlug }: { currentSlug: string }) {
     currentIndex < cities.length - 1 ? cities[currentIndex + 1] : null;
 
   return (
-    <nav className="px-4 pt-8 pb-12 border-t border-[#e8e0d5] flex justify-between items-center text-sm max-w-2xl mx-auto">
+    <nav className="px-4 pt-8 pb-12 border-t border-oat flex justify-between items-center text-sm max-w-2xl mx-auto">
       {prev ? (
         <Link
           href={prev.route}
-          className="text-[#8c7b6b] hover:text-[#4a3728] transition-colors flex items-center gap-1.5 group"
+          className="text-ink-light hover:text-ink transition-colors flex items-center gap-1.5 group"
         >
           <span className="group-hover:-translate-x-1 transition-transform text-xs">←</span>
           <span className="hidden sm:inline">{prev.name}</span>
@@ -53,14 +53,14 @@ function CityNavigation({ currentSlug }: { currentSlug: string }) {
       )}
       <Link
         href="/"
-        className="text-[#a09080] hover:text-[#4a3728] transition-colors text-xs tracking-wider"
+        className="text-ink-muted hover:text-ink transition-colors text-xs tracking-wider"
       >
         足迹地图
       </Link>
       {next ? (
         <Link
           href={next.route}
-          className="text-[#8c7b6b] hover:text-[#4a3728] transition-colors flex items-center gap-1.5 group"
+          className="text-ink-light hover:text-ink transition-colors flex items-center gap-1.5 group"
         >
           <span className="hidden sm:inline">{next.name}</span>
           <span className="group-hover:translate-x-1 transition-transform text-xs">→</span>

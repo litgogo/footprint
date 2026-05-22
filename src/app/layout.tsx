@@ -27,8 +27,8 @@ export default function RootLayout({
       </head>
       <body className="antialiased min-h-screen">
         {children}
-        <footer className="text-center py-10 border-t border-[#e8e0d5] mt-20">
-          <p className="text-[10px] text-[#a09080] tracking-[0.3em] font-light">
+        <footer className="text-center py-10 border-t border-oat mt-20">
+          <p className="text-[10px] text-ink-muted tracking-[0.3em] font-light">
             此处安放 · 2026
           </p>
         </footer>

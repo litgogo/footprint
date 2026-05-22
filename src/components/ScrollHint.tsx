@@ -21,7 +21,7 @@ export default function ScrollHint() {
 
   return (
     <div
-      className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-[#a09080] transition-opacity duration-500"
+      className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-ink-muted transition-opacity duration-500"
       style={{ opacity: visible ? 1 : 0 }}
     >
       <span className="text-xs tracking-[0.25em] font-light">向下探索</span>

@@ -7,7 +7,7 @@ export default function CityNotes({ notes }: CityNotesProps) {
 
   return (
     <div className="pt-5 max-w-2xl mx-auto">
-      <div className="text-[#3d3226] leading-loose font-serif text-[15px]">
+      <div className="text-ink leading-loose font-serif text-[15px]">
         {paragraphs.map((block, i) => {
           // 跳过首行空
           if (!block.trim()) return null;
@@ -19,7 +19,7 @@ export default function CityNotes({ notes }: CityNotesProps) {
             return (
               <h3
                 key={i}
-                className="text-lg font-medium text-[#4a3728] mt-10 mb-3 tracking-wide"
+                className="text-lg font-medium text-ink mt-10 mb-3 tracking-wide"
               >
                 {trimmed.replace(/^## /, "")}
               </h3>
@@ -31,7 +31,7 @@ export default function CityNotes({ notes }: CityNotesProps) {
             return (
               <h4
                 key={i}
-                className="text-base font-medium text-[#4a3728] mt-8 mb-2"
+                className="text-base font-medium text-ink mt-8 mb-2"
               >
                 {trimmed.replace(/^### /, "")}
               </h4>
@@ -43,7 +43,7 @@ export default function CityNotes({ notes }: CityNotesProps) {
             return (
               <blockquote
                 key={i}
-                className="border-l-2 border-[#c75146]/40 pl-4 my-4 text-[#8c7b6b] italic"
+                className="border-l-2 border-[var(--color-film)]/40 pl-4 my-4 text-ink-light italic"
               >
                 {trimmed
                   .split("\n")
@@ -57,9 +57,9 @@ export default function CityNotes({ notes }: CityNotesProps) {
           if (trimmed === "---") {
             return (
               <div key={i} className="flex items-center justify-center gap-2 my-8">
-                <span className="block w-6 h-px bg-[#d4c9b8]" />
-                <span className="w-1 h-1 rounded-full bg-[#c75146]/30" />
-                <span className="block w-6 h-px bg-[#d4c9b8]" />
+                <span className="block w-6 h-px bg-[var(--color-oat)]" />
+                <span className="w-1 h-1 rounded-full bg-film/30" />
+                <span className="block w-6 h-px bg-[var(--color-oat)]" />
               </div>
             );
           }

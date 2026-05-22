@@ -28,7 +28,7 @@ export default function CityDetailClient({ city }: CityDetailClientProps) {
             className="w-full h-full object-cover"
           />
         ) : (
-          <div className="w-full h-full bg-[#e8e0d5]" />
+          <div className="w-full h-full bg-[var(--color-oat)]" />
         )}
         <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/10 to-black/20" />
 

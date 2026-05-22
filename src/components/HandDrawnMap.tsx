@@ -59,7 +59,7 @@ export default function HandDrawnMap() {
                   cy={`${cy}%`}
                   r={isHovered ? 16 : 9}
                   fill="none"
-                  stroke="#c75146"
+                  stroke="var(--color-film)"
                   strokeWidth="0.8"
                   opacity={isHovered ? 0.35 : 0}
                   style={{ transition: "all 0.35s ease" }}
@@ -70,7 +70,7 @@ export default function HandDrawnMap() {
                   cx={`${cx}%`}
                   cy={`${cy}%`}
                   r={isHovered ? 5.5 : 4}
-                  fill="#c75146"
+                  fill="var(--color-film)"
                   filter="url(#softGlow)"
                   style={{ transition: "r 0.35s ease" }}
                 />
@@ -92,17 +92,17 @@ function HoverCard({ city }: { city: City }) {
   const cy = (city.coordinates.y * 750) / 900;
   return (
     <div
-      className="absolute z-20 pointer-events-none bg-white/95 backdrop-blur-sm border border-[#e0d6c5] rounded-lg p-3.5 shadow-lg min-w-[170px]"
+      className="absolute z-20 pointer-events-none bg-warm/95 backdrop-blur-sm border border-oat rounded-lg p-3.5 shadow-lg min-w-[170px]"
       style={{
         left: `calc(${city.coordinates.x}% + 10px)`,
         top: `calc(${cy}% - 55px)`,
       }}
     >
-      <div className="text-[10px] text-[#a09080] mb-0.5">{city.date}</div>
-      <div className="font-serif text-sm font-medium text-[#4a3728]">
+      <div className="text-[10px] text-ink-muted mb-0.5">{city.date}</div>
+      <div className="font-serif text-sm font-medium text-ink">
         {city.name}
       </div>
-      <div className="flex gap-3 mt-1.5 text-[10px] text-[#8c7b6b]">
+      <div className="flex gap-3 mt-1.5 text-[10px] text-ink-light">
         <span>💭 {city.feelings.length}</span>
         <span>🧠 {city.thoughts.length}</span>
       </div>

@@ -7,7 +7,7 @@ interface BlockquoteFeelingProps {
 export default function BlockquoteFeeling({ feelings }: BlockquoteFeelingProps) {
   if (feelings.length === 0) {
     return (
-      <div className="text-center py-16 text-[#a09080] text-sm">
+      <div className="text-center py-16 text-ink-muted text-sm">
         感受尚未沉淀
       </div>
     );
@@ -18,19 +18,19 @@ export default function BlockquoteFeeling({ feelings }: BlockquoteFeelingProps) 
       {feelings.map((feeling, i) => (
         <div key={feeling.id} className="relative group">
           {/* 左侧装饰竖线 */}
-          <div className="absolute left-0 top-0 bottom-0 w-0.5 bg-gradient-to-b from-[#c75146]/60 via-[#c75146]/20 to-transparent rounded-full" />
+          <div className="absolute left-0 top-0 bottom-0 w-0.5 bg-gradient-to-b from-[var(--color-film)]/60 via-[var(--color-film)]/20 to-transparent rounded-full" />
 
           {/* 引用语 */}
           <blockquote className="pl-8">
-            <p className="text-xl md:text-2xl font-serif text-[#4a3728] leading-relaxed tracking-wide">
+            <p className="text-xl md:text-2xl font-serif text-ink leading-relaxed tracking-wide">
               &ldquo;{feeling.quote}&rdquo;
             </p>
           </blockquote>
 
           {/* 触发场景 */}
           {feeling.context && (
-            <p className="pl-8 mt-3 text-xs text-[#a09080] tracking-wide leading-relaxed max-w-md">
-              <span className="inline-block w-4 h-px bg-[#c75146]/30 mr-2 align-middle" />
+            <p className="pl-8 mt-3 text-xs text-ink-muted tracking-wide leading-relaxed max-w-md">
+              <span className="inline-block w-4 h-px bg-film/30 mr-2 align-middle" />
               {feeling.context}
             </p>
           )}
@@ -38,9 +38,9 @@ export default function BlockquoteFeeling({ feelings }: BlockquoteFeelingProps) 
           {/* 感受间装饰分割 */}
           {i < feelings.length - 1 && (
             <div className="flex items-center justify-center gap-2 mt-12">
-              <span className="block w-6 h-px bg-[#d4c9b8]" />
-              <span className="w-1 h-1 rounded-full bg-[#c75146]/30" />
-              <span className="block w-6 h-px bg-[#d4c9b8]" />
+              <span className="block w-6 h-px bg-[var(--color-oat)]" />
+              <span className="w-1 h-1 rounded-full bg-film/30" />
+              <span className="block w-6 h-px bg-[var(--color-oat)]" />
             </div>
           )}
         </div>

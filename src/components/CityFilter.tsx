@@ -22,7 +22,7 @@ export default function CityFilter({
   thoughtCount,
 }: CityFilterProps) {
   return (
-    <div className="flex border-b border-[#e8e0d5]">
+    <div className="flex border-b border-oat">
       {tabs.map((tab) => {
         const isActive = activeTab === tab.key;
         const count =
@@ -41,8 +41,8 @@ export default function CityFilter({
               transition-colors duration-300 relative
               ${
                 isActive
-                  ? "text-[#4a3728] font-medium"
-                  : "text-[#a09080] hover:text-[#6b5d4f]"
+                  ? "text-ink font-medium"
+                  : "text-ink-muted hover:text-ink-light"
               }
             `}
           >
@@ -54,8 +54,8 @@ export default function CityFilter({
                   text-[10px] rounded-full px-1
                   ${
                     isActive
-                      ? "bg-[#c75146] text-white"
-                      : "bg-[#e8e0d5] text-[#8c7b6b]"
+                      ? "bg-film text-white"
+                      : "bg-[var(--color-oat)] text-ink-light"
                   }
                 `}
               >
@@ -63,7 +63,7 @@ export default function CityFilter({
               </span>
             )}
             {isActive && (
-              <span className="absolute bottom-0 left-2 right-2 h-0.5 bg-[#c75146] rounded-full" />
+              <span className="absolute bottom-0 left-2 right-2 h-0.5 bg-film rounded-full" />
             )}
           </button>
         );

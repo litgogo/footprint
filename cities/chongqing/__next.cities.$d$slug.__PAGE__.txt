@@ -1,6 +1,6 @@
 1:"$Sreact.fragment"
-2:I[31486,["/footprint/_next/static/chunks/01xlw8hd842-c.js","/footprint/_next/static/chunks/0d3shmwh5_nmn.js","/footprint/_next/static/chunks/0g4__agx..odh.js"],"default"]
-9:I[22016,["/footprint/_next/static/chunks/01xlw8hd842-c.js","/footprint/_next/static/chunks/0d3shmwh5_nmn.js","/footprint/_next/static/chunks/0g4__agx..odh.js"],""]
+2:I[31486,["/footprint/_next/static/chunks/01xlw8hd842-c.js","/footprint/_next/static/chunks/0d3shmwh5_nmn.js","/footprint/_next/static/chunks/0z07vf_qdhgh-.js"],"default"]
+9:I[22016,["/footprint/_next/static/chunks/01xlw8hd842-c.js","/footprint/_next/static/chunks/0d3shmwh5_nmn.js","/footprint/_next/static/chunks/0z07vf_qdhgh-.js"],""]
 a:I[97367,["/footprint/_next/static/chunks/01xlw8hd842-c.js","/footprint/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
 b:"$Sreact.suspense"
 3:T1c0d,CHONGQING
@@ -133,10 +133,10 @@ ending
 城市行走还会继续
 感谢@ice大小姐，有她才有这次想走就走的旅行
 感谢@陈大摄影师echo小姐，在她相机下这个魅力重庆
-0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"className":"min-h-screen max-w-2xl mx-auto","children":[["$","$L2",null,{"city":{"slug":"chongqing","name":"重庆","date":"2024","tagline":"勒是雾都——山就是一座城，城就是一座山","coordinates":{"x":43,"y":55},"photo":"/photos/chongqing.jpg","keywords":["山城","轻轨穿楼","洪崖洞","江湖菜","长江索道"],"companion":"Ice + Echo","route":"/cities/chongqing","notes":"$3","feelings":[{"id":"cq-f1","quote":"山就是一座城，城就是一座山。一座城，他有故事和温度。","context":"初到重庆"},{"id":"cq-f2","quote":"所谓的世界，不过是一条一条的街。","context":"重庆老街小巷"}],"thoughts":[{"id":"cq-t1","title":"立体城市与扁平思维","body":"重庆可能是中国最不适合「导航」的城市。地图上的直线距离毫无意义——你看着目的地在500米外，但它在你的头顶上20层楼。这种立体性强迫你用另一种方式理解空间。\n\n在重庆走路，是真正的「探索」——你永远不知道下一个转角是向上还是向下，是进入一条地下通道还是爬上一段阶梯。这种不确定性恰好是现代城市最稀缺的东西。大多数城市已经被导航APP「解咒」了，但重庆仍然保留着某种空间的神秘感。"}]}}],["$","nav",null,{"className":"px-4 pt-8 pb-12 border-t border-[#e8e0d5] flex justify-between items-center text-sm max-w-2xl mx-auto","children":["$L4","$L5","$L6"]}]]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"K2nMze4heZ-VSChWJlt50"}
-4:["$","$L9",null,{"href":"/cities/chengdu","className":"text-[#8c7b6b] hover:text-[#4a3728] transition-colors flex items-center gap-1.5 group","children":[["$","span",null,{"className":"group-hover:-translate-x-1 transition-transform text-xs","children":"←"}],["$","span",null,{"className":"hidden sm:inline","children":"成都 & 川西"}]]}]
-5:["$","$L9",null,{"href":"/","className":"text-[#a09080] hover:text-[#4a3728] transition-colors text-xs tracking-wider","children":"足迹地图"}]
-6:["$","$L9",null,{"href":"/cities/dali","className":"text-[#8c7b6b] hover:text-[#4a3728] transition-colors flex items-center gap-1.5 group","children":[["$","span",null,{"className":"hidden sm:inline","children":"大理"}],["$","span",null,{"className":"group-hover:translate-x-1 transition-transform text-xs","children":"→"}]]}]
-7:["$","script","script-0",{"src":"/footprint/_next/static/chunks/0g4__agx..odh.js","async":true}]
+0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"className":"min-h-screen max-w-2xl mx-auto","children":[["$","$L2",null,{"city":{"slug":"chongqing","name":"重庆","date":"2024","tagline":"勒是雾都——山就是一座城，城就是一座山","coordinates":{"x":43,"y":55},"photo":"/photos/chongqing.jpg","keywords":["山城","轻轨穿楼","洪崖洞","江湖菜","长江索道"],"companion":"Ice + Echo","route":"/cities/chongqing","notes":"$3","feelings":[{"id":"cq-f1","quote":"山就是一座城，城就是一座山。一座城，他有故事和温度。","context":"初到重庆"},{"id":"cq-f2","quote":"所谓的世界，不过是一条一条的街。","context":"重庆老街小巷"}],"thoughts":[{"id":"cq-t1","title":"立体城市与扁平思维","body":"重庆可能是中国最不适合「导航」的城市。地图上的直线距离毫无意义——你看着目的地在500米外，但它在你的头顶上20层楼。这种立体性强迫你用另一种方式理解空间。\n\n在重庆走路，是真正的「探索」——你永远不知道下一个转角是向上还是向下，是进入一条地下通道还是爬上一段阶梯。这种不确定性恰好是现代城市最稀缺的东西。大多数城市已经被导航APP「解咒」了，但重庆仍然保留着某种空间的神秘感。"}]}}],["$","nav",null,{"className":"px-4 pt-8 pb-12 border-t border-oat flex justify-between items-center text-sm max-w-2xl mx-auto","children":["$L4","$L5","$L6"]}]]}],["$L7"],"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"P7isywr-x9KwlNwYplqY7"}
+4:["$","$L9",null,{"href":"/cities/chengdu","className":"text-ink-light hover:text-ink transition-colors flex items-center gap-1.5 group","children":[["$","span",null,{"className":"group-hover:-translate-x-1 transition-transform text-xs","children":"←"}],["$","span",null,{"className":"hidden sm:inline","children":"成都 & 川西"}]]}]
+5:["$","$L9",null,{"href":"/","className":"text-ink-muted hover:text-ink transition-colors text-xs tracking-wider","children":"足迹地图"}]
+6:["$","$L9",null,{"href":"/cities/dali","className":"text-ink-light hover:text-ink transition-colors flex items-center gap-1.5 group","children":[["$","span",null,{"className":"hidden sm:inline","children":"大理"}],["$","span",null,{"className":"group-hover:translate-x-1 transition-transform text-xs","children":"→"}]]}]
+7:["$","script","script-0",{"src":"/footprint/_next/static/chunks/0z07vf_qdhgh-.js","async":true}]
 8:["$","$La",null,{"children":["$","$b",null,{"name":"Next.MetadataOutlet","children":"$@c"}]}]
 c:null

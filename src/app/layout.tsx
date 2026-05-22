@@ -12,7 +12,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="zh-CN">
+    <html lang="zh-CN" className="scroll-smooth">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
@@ -27,11 +27,6 @@ export default function RootLayout({
       </head>
       <body className="antialiased min-h-screen">
         {children}
-        <footer className="text-center py-10 border-t border-oat mt-20">
-          <p className="text-[10px] text-ink-muted tracking-[0.3em] font-light">
-            此处安放 · 2026
-          </p>
-        </footer>
       </body>
     </html>
   );

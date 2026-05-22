@@ -1,5 +1,5 @@
 1:"$Sreact.fragment"
-2:I[31486,["/footprint/_next/static/chunks/0~gewjrrbd95k.js","/footprint/_next/static/chunks/0d3shmwh5_nmn.js","/footprint/_next/static/chunks/09pjdek21qh1n.js"],"default"]
+2:I[31486,["/footprint/_next/static/chunks/0~gewjrrbd95k.js","/footprint/_next/static/chunks/0d3shmwh5_nmn.js","/footprint/_next/static/chunks/171si_unu2-ua.js"],"default"]
 6:I[97367,["/footprint/_next/static/chunks/0~gewjrrbd95k.js","/footprint/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
 7:"$Sreact.suspense"
 3:T1ebe,COLLECTION
@@ -139,7 +139,7 @@ PS：以上是最喜欢的南京咖啡馆top3
 文/Gogo
 图/Gogo
 麻豆/ Angela
--0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"city":{"slug":"nanjing","name":"南京","date":"2022","tagline":"行走十里秦淮，浅读六朝旧都","coordinates":{"x":70,"y":42},"photo":"/photos/nanjing.jpg","keywords":["金陵","秦淮","梧桐","六朝","先锋书店"],"companion":"女儿","route":"/cities/nanjing","vibe":"秦淮","notes":"$3","feelings":[{"id":"nj-f1","quote":"她是「卿言一句梧桐美，吾种梧桐满京城」洒满南京城的梧桐光影，是「凤凰台上凤凰游，凤去台空江自流」的雄浑悲凉。","context":"南京印象"},{"id":"nj-f2","quote":"历史岁月并不曾为千百年前作为都城的繁华和时代更迭的苍凉，带给南京沧桑的色彩，反而四处可见昔日繁华的余韵。","context":"六朝古都"}],"thoughts":[{"id":"nj-t1","title":"梧桐作为城市记忆载体","body":"南京的梧桐是一个极好的城市符号——「卿言一句梧桐美，吾种梧桐满京城」。一棵树因为一句承诺而被种满全城，成为一种跨越时代的浪漫象征。\n\n南京不是一个「遗忘」的城市。六朝的繁华、民国的沧桑、近代的伤痛——它选择用梧桐树这种最温柔的方式来承载记忆。树在生长，记忆也在生长；树在落叶，但根扎得越来越深。"}]}}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"himnPR9ZCEh5JLMBPc8ua"}
-4:["$","script","script-0",{"src":"/footprint/_next/static/chunks/09pjdek21qh1n.js","async":true}]
+-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"city":{"slug":"nanjing","name":"南京","date":"2022","tagline":"行走十里秦淮，浅读六朝旧都","coordinates":{"x":70,"y":42},"photo":"/photos/nanjing.jpg","keywords":["金陵","秦淮","梧桐","六朝","先锋书店"],"companion":"女儿","route":"/cities/nanjing","vibe":"秦淮","notes":"$3","feelings":[{"id":"nj-f1","quote":"她是「卿言一句梧桐美，吾种梧桐满京城」洒满南京城的梧桐光影，是「凤凰台上凤凰游，凤去台空江自流」的雄浑悲凉。","context":"南京印象"},{"id":"nj-f2","quote":"历史岁月并不曾为千百年前作为都城的繁华和时代更迭的苍凉，带给南京沧桑的色彩，反而四处可见昔日繁华的余韵。","context":"六朝古都"}],"thoughts":[{"id":"nj-t1","title":"梧桐作为城市记忆载体","body":"南京的梧桐是一个极好的城市符号——「卿言一句梧桐美，吾种梧桐满京城」。一棵树因为一句承诺而被种满全城，成为一种跨越时代的浪漫象征。\n\n南京不是一个「遗忘」的城市。六朝的繁华、民国的沧桑、近代的伤痛——它选择用梧桐树这种最温柔的方式来承载记忆。树在生长，记忆也在生长；树在落叶，但根扎得越来越深。"}]}}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"4ujw665UFn7AeVfG7CLvo"}
+4:["$","script","script-0",{"src":"/footprint/_next/static/chunks/171si_unu2-ua.js","async":true}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null

@@ -4,12 +4,12 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const navItems = [
-  { href: "/", label: "Home" },
-  { href: "/journey", label: "Journey" },
-  { href: "/map", label: "Map" },
-  { href: "/journal", label: "Journal" },
-  { href: "/gallery", label: "Gallery" },
-  { href: "/about", label: "About" },
+  { href: "/", label: "首页" },
+  { href: "/journey", label: "城市印记" },
+  { href: "/map", label: "旅行地图" },
+  { href: "/journal", label: "城市记忆" },
+  { href: "/gallery", label: "城市影像" },
+  { href: "/about", label: "关于" },
 ];
 
 export default function NavBar() {

@@ -10,7 +10,7 @@ export default function HandDrawnMap() {
     <div className="relative w-full max-w-[720px] mx-auto px-2">
       {/* 地图图片 + SVG 标记叠加层 */}
       <div className="relative w-full">
-        {/* 底图 */}
+        {/* 底图 — 已抠白底，RGBA 透明 PNG */}
         <img
           src="/footprint/photos/china-map.webp"
           alt="中国足迹地图"
@@ -38,9 +38,8 @@ export default function HandDrawnMap() {
             const isHovered = hovered === city.slug;
             const dotOpacity = hovered === null ? 1 : isHovered ? 1 : 0.3;
 
-            // 坐标适配：原 coords 基于 900 高，映射到 750 高
             const cx = city.coordinates.x;
-            const cy = (city.coordinates.y * 750) / 900;
+            const cy = city.coordinates.y;
 
             return (
               <g
@@ -75,25 +74,39 @@ export default function HandDrawnMap() {
             );
           })}
         </svg>
-      </div>
 
-      {/* Hover 浮层卡片 */}
-      {hovered && (
-        <HoverCard city={cities.find((c) => c.slug === hovered)!} />
-      )}
+        {/* Hover 浮层卡片 — 与 SVG 同一父容器，坐标对齐 */}
+        {hovered && (
+          <HoverCard
+            city={cities.find((c) => c.slug === hovered)!}
+            totalCities={cities.length}
+          />
+        )}
+      </div>
     </div>
   );
 }
 
-function HoverCard({ city }: { city: City }) {
-  const cy = (city.coordinates.y * 750) / 900;
+function HoverCard({ city, totalCities }: { city: City; totalCities: number }) {
+  // 智能定位：根据点在画面中的位置调整卡片偏移方向，避免溢出
+  const { x, y } = city.coordinates;
+  const isNearRight = x > 70;
+  const isNearBottom = y > 75;
+  const isNearTop = y < 15;
+
+  const left = isNearRight
+    ? `calc(${x}% - 180px)`   // 靠右时卡片出现在左侧
+    : `calc(${x}% + 12px)`;
+  const top = isNearBottom
+    ? `calc(${y}% - 90px)`    // 靠下时卡片上移
+    : isNearTop
+    ? `calc(${y}% + 16px)`    // 靠上时卡片下移
+    : `calc(${y}% - 55px)`;
+
   return (
     <div
       className="absolute z-20 pointer-events-none bg-warm/95 backdrop-blur-sm border border-oat rounded-lg p-3.5 shadow-lg min-w-[170px]"
-      style={{
-        left: `calc(${city.coordinates.x}% + 10px)`,
-        top: `calc(${cy}% - 55px)`,
-      }}
+      style={{ left, top }}
     >
       <div className="text-[10px] text-ink-muted mb-0.5">{city.date}</div>
       <div className="font-serif text-sm font-medium text-ink">

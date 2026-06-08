@@ -22,7 +22,7 @@ cities.forEach((city) => {
       type: "feeling",
       content: (
         <>
-          <p className="text-lg md:text-xl font-serif font-light text-ink leading-relaxed tracking-wide">
+          <p className="text-lg font-serif font-light text-ink leading-relaxed tracking-wide">
             {f.quote}
           </p>
           {f.context && (
@@ -49,7 +49,7 @@ cities.forEach((city) => {
           <h3 className="text-xs font-sans font-medium text-film tracking-[0.2em] mb-2 uppercase">
             {t.title}
           </h3>
-          <p className="text-base font-serif font-light text-ink leading-relaxed">
+          <p className="text-lg font-serif font-light text-ink leading-relaxed">
             {firstSentence}。
           </p>
         </>

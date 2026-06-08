@@ -132,7 +132,7 @@ const hongkong: City = {
 const kunming: City = {
   slug: "kunming",
   name: "昆明",
-  date: "2024 夏",
+  date: "2024.06",
   tagline: "一万次的春和景明，跟着汪曾祺吃遍春城",
   coordinates: { x: 42, y: 73 },
   photo: "/photos/kunming.jpg",
@@ -337,7 +337,7 @@ const quanzhou: City = {
 const dali: City = {
   slug: "dali",
   name: "大理",
-  date: "2025 夏",
+  date: "2025.08",
   tagline: "按照你喜欢的方式生活，就是最好的人生",
   coordinates: { x: 38, y: 68 },
   photo: "/photos/dali.jpg",
@@ -551,7 +551,7 @@ const jinanYantai: City = {
 const beijing: City = {
   slug: "beijing",
   name: "北京",
-  date: "2026",
+  date: "2019.07",
   tagline: "行走昨日皇城，尽数今日风流",
   coordinates: { x: 66, y: 22 },
   photo: "/photos/beijing.jpg",
@@ -972,7 +972,7 @@ END
 const datong: City = {
   slug: "datong",
   name: "大同",
-  date: "2024",
+  date: "2023.06",
   tagline: "山河悠远，一眼见千年——北魏的风吹到现在",
   coordinates: { x: 58, y: 22 },
   photo: "/photos/datong.jpg",
@@ -1473,7 +1473,7 @@ SUMMER
 const nanjing: City = {
   slug: "nanjing",
   name: "南京",
-  date: "2022",
+  date: "2022.07",
   tagline: "行走十里秦淮，浅读六朝旧都",
   coordinates: { x: 70, y: 42 },
   photo: "/photos/nanjing.jpg",
@@ -1647,7 +1647,7 @@ PS：以上是最喜欢的南京咖啡馆top3
 const qingdao: City = {
   slug: "qingdao",
   name: "青岛",
-  date: "2024",
+  date: "2023.05",
   tagline: "红瓦绿树，碧海蓝天——历史街区的CITYWALK",
   coordinates: { x: 74, y: 30 },
   photo: "/photos/qingdao.jpg",
@@ -1801,7 +1801,7 @@ PART 5
 const chongqing: City = {
   slug: "chongqing",
   name: "重庆",
-  date: "2024",
+  date: "2021.04",
   tagline: "勒是雾都——山就是一座城，城就是一座山",
   coordinates: { x: 43, y: 55 },
   photo: "/photos/chongqing.jpg",
@@ -1962,11 +1962,117 @@ ending
 };
 
 // ============================================================
-// 导出 — 14城
+// 徽州
 // ============================================================
 
+const huizhou: City = {
+  slug: "huizhou",
+  name: "徽州",
+  date: "2023.04",
+  tagline: "一生痴绝处，无梦到徽州——睡进水墨画里",
+  coordinates: { x: 72, y: 56 },
+  photo: "/photos/huizhou.jpg",
+  keywords: ["徽派建筑", "呈坎", "油菜花", "小川藏", "臭鳜鱼", "澍德堂"],
+  companion: "Echo、冷颜、老张",
+  route: "/cities/huizhou",
+  vibe: "水墨",
+
+  notes: `青砖小瓦马头墙，回廊挂落花格窗。徽派建筑以黛瓦、粉壁、马头墙为表型特征，用砖雕、木雕和石雕装饰——中原文明与古越文化的交流融合，直接体现在建筑形式上。
+
+## 呈坎 · 澍德堂
+
+不睡进水墨画的世界，似乎不算真正来过皖南。澍德堂位于呈坎古村，宛若寻常人家的木门后，别有洞天。
+
+石板路，油菜花，马头墙，冬瓜梁，丝瓜柱，满目新绿的尽头是清清池塘和百年历史徽州老宅改造后的"澍德堂"。7栋白墙黛瓦的明清老宅，池塘中的拱桥，池塘边的大树，远处划竹筏的艄公，云雾中的呈坎村，偶尔传来的鸡鸣狗叫，炊烟深处的三街九十九巷——这就是属于徽州的诗情画意。
+
+苏辙曾书"我欲试求三亩宅，从公他日赋归欤"，没想到几百年后，他的后人将他的梦想成为了更多人向往的家园。
+
+> ps：相片中道具"大鱼"，是元宵节黄山地区非遗项目"鱼灯"，已有600多年的历史。
+
+## 即下山 · 文郁堂
+
+因为在某书上刷到即下山·文郁堂，被它厚重的历史文化吸引，才有了呈坎一行。全国唯一私人收藏酒店，两座明代建筑改造，藏品涵盖家具、书画、器物、盐商文献等。遗憾是不对非住客开放，于是到了他家的"废墟咖啡馆"，远距离地接触了它。
+
+## 皖南晚春
+
+> "但远山长，云山乱，晓山青" ——苏轼《行香子·过七里濑》
+
+皖南的美，是白墙黛瓦的古村落，是四望唯烟云、汩汩流淌的小溪，是沿路皆是油菜花的金黄与明朗。
+
+## 皖南小川藏 · 桃岭六道湾
+
+号称"江南天路"的盘山公路，351个弯，21个回曲，东起宁国市青龙乡，西至泾县蔡村镇，最神秘精华路段全长120公里。桃岭六道湾是皖南小川藏的精华所在——桃岭人民用四年多时间，凭着愚公移山的精神，修建了这条18公里天路，结束了祖祖辈辈与世隔绝的状态。
+
+## 宅野山谷民宿
+
+一对年轻的夫妇，还有一只淘气的边牧，在盘山公路转进去的村落里，打造了一栋极简的宅子，原始森林的环抱，极致的隐秘野趣。宅野的后山，沿着小路一直走上去，能看到茶山。采茶季节，背着竹篓的茶农上山采茶。
+
+## 徽州食记
+
+臭鳜鱼，上过"舌尖上的中国"，闻着臭入口香。春笋腊肉、罗氏毛豆腐、土鸡汤、绩溪粉丝、禾草红烧肉、太平湖活鱼二吃。
+
+老张说：我们自驾原则不在一个城市吃第二顿——成为了皖南美食之旅的基本指导方针。
+
+## 写在最后
+
+自驾行程：合肥 - 太平湖 - 黄山呈坎 - 宣城绩溪 - 泾县桃岭六道湾 - 芜湖 - 合肥。三天的皖南之行，难免有点遗憾，或者不完美才真实。
+
+李白笔下的桃花潭水深千尺，艺术院校学生写生必去的查济古村，胡适先生故居，江南第一祠——胡氏宗祠……留待下次重游皖南。
+
+人是需要旅行的，去看看更大的世界。`,
+
+  feelings: [
+    {
+      id: "hz-f3",
+      quote: "不睡进水墨画的世界，似乎不算真正来过皖南。石板路，油菜花，马头墙——满目新绿的尽头是清清池塘和百年徽州老宅。",
+      context: "呈坎澍德堂",
+    },
+    {
+      id: "hz-f4",
+      quote: "皖南的美，是白墙黛瓦的古村落，是四望唯烟云、汩汩流淌的小溪，是沿路皆是油菜花的金黄与明朗。最美的风景，在路上。",
+      context: "皖南自驾途中",
+    },
+    {
+      id: "hz-f5",
+      quote: "人是需要旅行的，去看看更大的世界。",
+      context: "旅程结束",
+    },
+  ],
+
+  thoughts: [
+    {
+      id: "hz-t3",
+      title: "「徽州」作为一个美学概念",
+      body: "徽州之所以动人，不只因为建筑好看、风景如画。而是因为它提供了一个完整的美学世界——你走进去，不只是看到白墙黛瓦，还能听到鸡鸣狗叫、闻到炊烟、摸到冬瓜梁上的木纹。这种「全感官包裹」的体验，是徽州最独特的地方。\\n\\n现代城市的问题不是「不美」，而是美得太片面——一个网红咖啡馆可能很好看，但你看不到它和周围社区的关系。徽州的美是「长出来的」，不是「设计出来的」。澍德堂的7栋老宅、池塘里的拱桥、远处的艄公、云雾中的呈坎村——这些东西放在一起才成立，拆开任何一个都不行。",
+    },
+    {
+      id: "hz-t4",
+      title: "在路上：自驾的哲学",
+      body: "老张那句「不在一个城市吃第二顿」听起来是玩笑，其实是一种很深的旅行哲学。它意味着：不贪恋已知的美好，永远给未知留位置。三天的皖南之行，从合肥到太平湖到呈坎到绩溪到泾县到芜湖——每个地方只吃一顿，每一顿都是「一期一会」。\\n\\n这和Gogo之前的旅行模式一脉相承——不是在一个地方深挖，而是在流动中感受。旅行的本质不是「到达」，是「经过」。",
+    },
+  ],
+};
+
+// ============================================================
+// 导出 — 15城（按时间先后排序）
+// ============================================================
+
+/** 将多种日期格式归一化为可比较的数值 (year.month) */
+function parseDate(date: string): number {
+  const m = date.match(/^(\d{4})[.\s](夏|\d{1,2})$/);
+  if (m) {
+    const year = parseInt(m[1]);
+    const month = m[2] === "夏" ? 6 : parseInt(m[2]);
+    return year + month / 100;
+  }
+  // 只有年份，默认年初
+  const yearOnly = date.match(/^(\d{4})$/);
+  if (yearOnly) return parseInt(yearOnly[1]);
+  return 0; // fallback
+}
+
 const newCities: City[] = [
-  beijing, changsha, chengdu, datong, guizhou, hangzhou, nanjing, qingdao, chongqing,
+  beijing, changsha, chengdu, datong, guizhou, hangzhou, huizhou, nanjing, qingdao, chongqing,
 ];
 
 export const cities: City[] = [
@@ -1979,12 +2085,13 @@ export const cities: City[] = [
   guizhou,
   hangzhou,
   hongkong,
+  huizhou,
   jinanYantai,
   kunming,
   nanjing,
   qingdao,
   quanzhou,
-];
+].sort((a, b) => parseDate(a.date) - parseDate(b.date));
 
 export const siteConfig = {
   title: "此处安放",

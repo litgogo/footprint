@@ -21,6 +21,7 @@ export interface City {
   tagline: string;
   coordinates: { x: number; y: number };
   photo: string;
+  poster?: boolean; // true = 竖版海报图（照片+插画双拼），卡片内完整显示
   keywords: string[];
   companion?: string;
   route: string;
@@ -975,7 +976,8 @@ const datong: City = {
   date: "2023.06",
   tagline: "山河悠远，一眼见千年——北魏的风吹到现在",
   coordinates: { x: 59, y: 16 },
-  photo: "/photos/datong.jpg",
+  photo: "/photos/datong-poster.jpg",
+  poster: true,
   keywords: ["云冈石窟", "北魏", "古建", "华严寺", "悬空寺"],
   companion: "Echo",
   route: "/cities/datong",

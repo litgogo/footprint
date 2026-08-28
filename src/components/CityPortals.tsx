@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { cities } from "@/data/cities";
 import { cityIconMap } from "@/components/CityIcons";
 
@@ -10,7 +11,11 @@ export default function CityPortals() {
         const Icon = cityIconMap[city.slug];
 
         return (
-          <div key={city.slug} className="group block">
+          <Link
+            key={city.slug}
+            href={`/cities/${city.slug}`}
+            className="group block"
+          >
             <div
               className="
                 relative bg-warm/80 backdrop-blur-sm
@@ -30,7 +35,7 @@ export default function CityPortals() {
               </div>
 
               {/* 日期 */}
-              <div className="text-[10px] tracking-[0.2em] text-ink-muted mb-2 uppercase">
+              <div className="text-[10px] tracking-[0.2em] text-ink-light mb-2 uppercase">
                 {city.date}
               </div>
 
@@ -53,8 +58,9 @@ export default function CityPortals() {
 
               {/* Hover 时才显示的统计 */}
               <div className="mt-4 flex gap-3 text-[10px] text-ink-muted opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <span>💭 {city.feelings.length}</span>
-                <span>🧠 {city.thoughts.length}</span>
+                <span>感受 {city.feelings.length}</span>
+                <span>·</span>
+                <span>思考 {city.thoughts.length}</span>
               </div>
 
               {/* 左下角装饰角标 */}
@@ -64,7 +70,7 @@ export default function CityPortals() {
                 </svg>
               </div>
             </div>
-          </div>
+          </Link>
         );
       })}
     </div>

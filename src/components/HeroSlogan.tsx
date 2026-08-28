@@ -1,40 +1,6 @@
-"use client";
-
-import { useEffect, useRef, useState } from "react";
-
 export default function HeroSlogan() {
-  const containerRef = useRef<HTMLDivElement>(null);
-  const [scrollProgress, setScrollProgress] = useState(0);
-
-  useEffect(() => {
-    const el = containerRef.current;
-    if (!el) return;
-
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        const progress = 1 - entry.intersectionRatio;
-        setScrollProgress(Math.min(progress, 1));
-      },
-      { threshold: Array.from({ length: 21 }, (_, i) => i / 20) }
-    );
-
-    observer.observe(el);
-    return () => observer.disconnect();
-  }, []);
-
-  const opacity = 1 - scrollProgress * 1.3;
-  const translateY = scrollProgress * -80;
-
   return (
-    <div
-      ref={containerRef}
-      className="flex flex-col items-center justify-center min-h-screen px-4 text-center"
-      style={{
-        opacity: Math.max(opacity, 0),
-        transform: `translateY(${translateY}px)`,
-        transition: "opacity 0.1s linear, transform 0.1s linear",
-      }}
-    >
+    <div className="flex flex-col items-center justify-center min-h-[100dvh] px-4 text-center">
       {/* 装饰线 — 上方 */}
       <div className="flex items-center justify-center gap-3 mb-10">
         <span className="block w-10 h-px bg-film opacity-30" />

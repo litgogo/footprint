@@ -1,6 +1,21 @@
 import type { Metadata } from "next";
+import { Noto_Sans_SC, Noto_Serif_SC } from "next/font/google";
 import "./globals.css";
 import NavBar from "@/components/NavBar";
+
+const notoSansSC = Noto_Sans_SC({
+  subsets: ["latin"],
+  weight: ["300", "400", "500"],
+  variable: "--font-noto-sans-sc",
+  display: "swap",
+});
+
+const notoSerifSC = Noto_Serif_SC({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+  variable: "--font-noto-serif-sc",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: "此处安放 · 足迹",
@@ -13,20 +28,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="zh-CN" className="scroll-smooth">
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossOrigin="anonymous"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500&display=swap"
-          rel="stylesheet"
-        />
-      </head>
-      <body className="antialiased min-h-screen">
+    <html lang="zh-CN" className={`${notoSansSC.variable} ${notoSerifSC.variable}`}>
+      <body className="antialiased min-h-[100dvh]">
         <NavBar />
         {/* pt 留出导航栏高度 */}
         <div className="pt-12 md:pt-14">

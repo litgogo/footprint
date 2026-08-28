@@ -1,6 +1,6 @@
 export default function AboutPage() {
   return (
-    <main className="min-h-screen py-24 px-4 max-w-3xl mx-auto flex flex-col justify-center">
+    <main className="min-h-[100dvh] py-24 px-4 max-w-3xl mx-auto flex flex-col justify-center">
       <div className="text-center">
         <h1 className="text-2xl md:text-3xl font-serif font-light text-ink tracking-widest">
           关于此处安放

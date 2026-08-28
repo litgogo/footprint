@@ -125,14 +125,14 @@ export default function CityDetailClient({ city }: { city: City }) {
   ];
 
   return (
-    <main className="min-h-screen py-20 md:py-28 px-4 max-w-3xl mx-auto">
+    <main className="min-h-[100dvh] py-20 md:py-28 px-4 max-w-3xl mx-auto">
       {/* 返回链接 */}
       <Link
         href="/journal"
         className="inline-flex items-center gap-1.5 text-xs tracking-widest text-ink-muted hover:text-film transition-colors mb-12 font-sans"
       >
         <span className="text-film/60">←</span>
-        旅行故事
+        城市记忆
       </Link>
 
       {/* 城市头部 */}
@@ -147,7 +147,7 @@ export default function CityDetailClient({ city }: { city: City }) {
             {city.date}
           </p>
           {city.companion && (
-            <p className="text-xs tracking-wider text-ink-muted/70 font-sans">
+            <p className="text-xs tracking-wider text-ink-light font-sans">
               with {city.companion}
             </p>
           )}
@@ -157,7 +157,7 @@ export default function CityDetailClient({ city }: { city: City }) {
           {city.keywords.map((kw) => (
             <span
               key={kw}
-              className="text-[10px] tracking-wider px-2.5 py-1 rounded-full bg-oat/30 text-ink-muted font-sans"
+              className="text-[10px] tracking-wider px-2.5 py-1 rounded-full bg-oat/40 text-ink-light font-sans"
             >
               {kw}
             </span>

@@ -26,8 +26,8 @@ cities.forEach((city) => {
             {f.quote}
           </p>
           {f.context && (
-            <p className="mt-2 text-xs text-ink-muted/60 tracking-wider font-sans">
-              — {f.context}
+            <p className="mt-2 text-xs text-ink-light/80 tracking-wider font-sans">
+              - {f.context}
             </p>
           )}
         </>
@@ -82,12 +82,12 @@ export default function CityFragments() {
                   frag.type === "feeling" ? "bg-film/50" : "bg-ink-muted/30"
                 }`}
               />
-              <span className="text-[10px] tracking-[0.15em] text-ink-muted/50 font-sans">
+              <span className="text-[10px] tracking-[0.15em] text-ink-light font-sans">
                 {frag.city}
-                <span className="text-film/40 mx-1">·</span>
+                <span className="text-film/60 mx-1">·</span>
                 {frag.vibe}
               </span>
-              <span className="text-[10px] text-ink-muted/30 font-sans">
+              <span className="text-[10px] text-ink-light/70 font-sans">
                 {frag.date}
               </span>
             </div>

@@ -2,7 +2,7 @@ import CityFragments from "@/components/CityFragments";
 
 export default function JourneyPage() {
   return (
-    <main className="min-h-screen py-24 px-4 max-w-3xl mx-auto">
+    <main className="min-h-[100dvh] py-24 px-4 max-w-3xl mx-auto">
       <div className="text-center mb-16">
         <h1 className="text-2xl md:text-3xl font-serif font-light text-ink tracking-widest">
           城市印记

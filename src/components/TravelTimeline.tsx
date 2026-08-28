@@ -1,4 +1,5 @@
 import { cities } from "@/data/cities";
+import Link from "next/link";
 
 // 按年份分组
 const timeline = cities.reduce(
@@ -15,53 +16,77 @@ const sortedYears = Object.keys(timeline).sort();
 
 export default function TravelTimeline() {
   return (
-    <div className="flex flex-col md:flex-row gap-8 md:gap-12 w-full items-center md:items-start">
-      {/* 左：地图 */}
-      <div className="w-full md:w-1/2 flex-shrink-0">
-        <img
-          src="/footprint/photos/china-map.webp"
-          alt="中国足迹地图"
-          className="w-full h-auto opacity-70 hover:opacity-100 transition-opacity duration-500"
-        />
-      </div>
-
-      {/* 右：时间轴 */}
-      <div className="w-full md:w-1/2 space-y-10">
-        {sortedYears.map((year) => (
-          <div key={year}>
-            {/* 年份 */}
-            <h3 className="text-sm tracking-[0.3em] text-ink-muted mb-4 font-sans">
+    <div className="max-w-6xl mx-auto space-y-16 md:space-y-20">
+      {sortedYears.map((year) => (
+        <div key={year}>
+          {/* 年份 header — 大衬线数字 */}
+          <div className="flex items-baseline gap-4 mb-6">
+            <h3 className="font-serif text-3xl md:text-4xl font-light text-ink tracking-wider">
               {year}
             </h3>
+            <span className="flex-1 h-px bg-oat/60" />
+            <span className="text-[10px] tracking-[0.2em] text-ink-light font-sans">
+              {timeline[year].length} 城
+            </span>
+          </div>
 
-            {/* 城市列表 */}
-            <div className="space-y-2">
-              {timeline[year].map((city) => (
-              <div key={city.slug} className="group flex items-center gap-3 py-2 border-b border-oat/50 hover:border-film/30 transition-all duration-300 cursor-default"
-                >
-                  {/* 小圆点 */}
-                  <span className="w-2 h-2 rounded-full bg-film/50 group-hover:bg-film group-hover:scale-125 transition-all duration-300 flex-shrink-0" />
-
-                  {/* 城市名 + tagline */}
-                  <div className="flex-1 min-w-0">
-                    <span className="text-sm font-serif text-ink group-hover:text-ink transition-colors">
-                      {city.name}
-                    </span>
-                    <span className="text-xs text-ink-muted ml-3 hidden sm:inline">
-                      {city.tagline.slice(0, 20)}…
+          {/* 城市卡片网格 */}
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 md:gap-6">
+            {timeline[year].map((city) => (
+              <Link
+                key={city.slug}
+                href={`/cities/${city.slug}`}
+                className="group block"
+              >
+                <div className="relative overflow-hidden bg-warm/80 backdrop-blur-sm border border-oat rounded-xl transition-all duration-400 ease-out hover:border-[var(--color-film)]/40 hover:shadow-lg hover:shadow-[var(--color-film)]/5 hover:-translate-y-1">
+                  {/* 照片封面 — 3:4 竖版海报比例 */}
+                  <div className="relative aspect-[3/4] overflow-hidden bg-oat/30">
+                    {city.photo ? (
+                      <img
+                        src={`/footprint${city.photo}`}
+                        alt={city.name}
+                        className={`w-full h-full transition-transform duration-700 ease-out group-hover:scale-105 ${
+                          city.poster
+                            ? "object-contain p-3 md:p-4"
+                            : "object-cover"
+                        }`}
+                        loading="lazy"
+                      />
+                    ) : (
+                      <div className="w-full h-full flex items-center justify-center">
+                        <span className="text-5xl text-oat/40 font-serif select-none">
+                          {city.name.slice(0, 1)}
+                        </span>
+                      </div>
+                    )}
+                    {/* 日期角标 */}
+                    <span className="absolute top-2.5 left-2.5 text-[9px] tracking-[0.15em] px-2 py-0.5 rounded-full bg-paper/85 backdrop-blur-sm text-ink-light font-sans">
+                      {city.date}
                     </span>
                   </div>
 
-                  {/* 箭头 */}
-                  <span className="text-xs text-ink-muted opacity-0 group-hover:opacity-100 transition-all duration-300 group-hover:translate-x-1 transform">
-                    →
-                  </span>
-              </div>
-              ))}
-            </div>
+                  {/* 文字区 */}
+                  <div className="p-4">
+                    <h4 className="font-serif text-sm md:text-base font-medium text-ink tracking-wide group-hover:text-film transition-colors duration-300">
+                      {city.name}
+                      <span className="text-film/50 mx-1">·</span>
+                      <span className="text-ink-light font-light text-xs">
+                        {city.vibe}
+                      </span>
+                    </h4>
+                    <p className="mt-1.5 text-[10px] tracking-wider text-ink-light/80 font-sans line-clamp-1">
+                      {city.tagline}
+                    </p>
+                    <div className="mt-2.5 text-[10px] text-ink-light/70 font-sans">
+                      {city.feelings.length + city.thoughts.length} 碎片
+                    </div>
+                  </div>
+                </div>
+              </Link>
+            ))}
           </div>
-        ))}
-      </div>
+        </div>
+      ))}
     </div>
   );
 }

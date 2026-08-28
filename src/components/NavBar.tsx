@@ -5,10 +5,8 @@ import { usePathname } from "next/navigation";
 
 const navItems = [
   { href: "/", label: "首页" },
-  { href: "/journey", label: "城市印记" },
-  { href: "/map", label: "旅行地图" },
   { href: "/journal", label: "城市记忆" },
-  { href: "/gallery", label: "城市影像" },
+  { href: "/journey", label: "城市印记" },
   { href: "/about", label: "关于" },
 ];
 

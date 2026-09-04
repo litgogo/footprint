@@ -5,9 +5,9 @@ import Link from "next/link";
 const magazines = [
   {
     slug: "wuxulancha-20260828",
-    title: "向北六日",
-    subtitle: "草原 · 火山 · 湖泊 · 和一座城",
-    tagline: "六日静行 · 广州 ↔ 呼和浩特 · 同行的四个人",
+    title: "我向往的生活 · 从来不在框架里",
+    subtitle: "乌兰察布 · 六日 · 一千公里",
+    tagline: "草原 火山 湖泊 · 还有一场谁也没安排的雨",
     date: "2026.08",
     cover: "/magazines/wuxulancha-20260828/cover.jpg",
     vibe: "向内向北",
